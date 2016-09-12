@@ -518,6 +518,7 @@ h3 {
  * =========================
  */
 .single-form .form-control {
+  resize: none;
   height: 54px;
   border: 1px solid;
   border-radius: 0;
@@ -1693,7 +1694,7 @@ h3 {
 }
 .features-section-11 .form-body {
   display: inline-block;
-  padding: 75px;
+  padding:25px 75px;
 }
 .features-section-11 .single-form .form-control {
   border: 1px solid;
@@ -1958,4 +1959,17 @@ h3 {
   }
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
 
