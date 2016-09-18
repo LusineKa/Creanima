@@ -4136,13 +4136,8 @@ tbody.collapse.in {
 .input-group {
     position: relative;
     display: table;
+    padding: 25px 15px;
     border-collapse: separate
-}
-
-.input-group[class*=col-] {
-    float: none;
-    padding-right: 0;
-    padding-left: 0
 }
 
 .input-group .form-control {
@@ -4155,6 +4150,12 @@ tbody.collapse.in {
 
 .input-group .form-control:focus {
     z-index: 3
+}
+
+.input-group-btn .btn {
+    color: white;
+    font-size: 15px;
+
 }
 
 .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
@@ -6258,6 +6259,7 @@ button.close {
     border: 0;
     font-size: 45px;
     line-height: 23px;
+    outline: none;
 }
 
 .modal-open {
