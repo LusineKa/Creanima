@@ -472,6 +472,10 @@ h3 {
  * Subscription and contact  "MESSAGE"
  * ===================================
  */
+
+.message {
+  margin-bottom: 20px;
+}
 .subscription-success,
 .subscription-failed,
 .email-success,
@@ -481,6 +485,9 @@ h3 {
   display: none;
   text-align: left !important;
   margin: 0 0 10px 0 !important;
+  position: absolute;
+  left: 0;
+  top: -20px;
 }
 .email-loading {
   color: #52B8FF;
@@ -518,10 +525,14 @@ h3 {
  * =========================
  */
 .single-form .form-control {
+  border:none;
+  text-indent: 10px;
+  border-bottom: 1px solid white;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   resize: none;
   height: 54px;
-  border: 1px solid;
-  border-radius: 0;
   padding: 0;
   font-size: 15px;
   font-weight: 300;
@@ -1696,9 +1707,7 @@ h3 {
   display: inline-block;
   padding:25px 75px;
 }
-.features-section-11 .single-form .form-control {
-  border: 1px solid;
-}
+
 .features-section-11 .single-form .btn-form {
   margin-top: 25px;
   text-align: center;
