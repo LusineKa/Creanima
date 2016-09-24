@@ -3767,10 +3767,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
-
 .collapse.in {
     display: block
 }
@@ -4503,16 +4499,11 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    border-radius: 4px
 }
 
-@media (min-width: 768px) {
-    .navbar {
-        border-radius: 4px
-    }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .navbar-header {
         float: left
     }
@@ -4532,7 +4523,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     overflow-y: auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -4572,12 +4563,12 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     margin-left: -15px
 }
 
-@media (min-width: 768px) {
-    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
         margin-right: 0;
         margin-left: 0
     }
-}
+
 
 .navbar-static-top {
     z-index: 1000;
@@ -4680,32 +4671,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     line-height: 20px
 }
 
-@media (max-width: 767px) {
-    .navbar-nav .open .dropdown-menu {
-        position: static;
-        float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: transparent;
-        border: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none
-    }
-
-    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
-        padding: 5px 15px 5px 25px
-    }
-
-    .navbar-nav .open .dropdown-menu > li > a {
-        line-height: 20px
-    }
-
-    .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
-        background-image: none
-    }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .navbar-nav {
         float: left;
         margin: 0
@@ -4846,27 +4812,23 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     margin-bottom: 15px
 }
 
-@media (min-width: 768px) {
-    .navbar-text {
-        float: left;
-        margin-right: 15px;
-        margin-left: 15px
-    }
+.navbar-text {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px
 }
 
-@media (min-width: 768px) {
-    .navbar-left {
-        float: left !important
-    }
+.navbar-left {
+    float: left !important
+}
 
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px
-    }
+.navbar-right {
+    float: right !important;
+    margin-right: -15px
+}
 
-    .navbar-right ~ .navbar-right {
-        margin-right: 0
-    }
+.navbar-right ~ .navbar-right {
+   margin-right: 0
 }
 
 .navbar-default {
