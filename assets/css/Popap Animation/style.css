@@ -1,4 +1,14 @@
-
+@font-face {
+  font-family: 'Circe';
+  src: url(../fonts/Circe-Bold.ttf);
+  src: url(../fonts/Circe-Bold.woff);
+}
+@font-face {
+  font-family: 'Circe';
+  src: url(../fonts/pt-sans.otf);
+  src: url(../fonts/pt-sans.woff);
+  src: url(../fonts/pt-sans.ttf);
+}
 .cd-btn {
   display: inline-block;
   padding: 1.6em 2.4em;
@@ -201,14 +211,59 @@ Gummy Effect
   color: #f2f2f2;
   border-radius: 50em;
 }
+.gummy-transition .modal-content .ready-icon .title-ready {
+  position: absolute;
+  top: 17px;
+  font-size: 20px;
+  left: 68px;
+  font-family: 'Circe';
+}
+
+.gummy-transition .modal-content .ready-icon .phone-ready {
+  font-weight: 900;
+  font-size: 23px;
+  position: absolute;
+  top: 43px;
+  right: 20px;
+  font-family: 'Circe';
+}
+.gummy-transition .modal-content .ready-icon .mail-ready {
+  font-size: 20px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-family: 'Circe';
+}
+.gummy-transition .modal-content .ready-icon img {
+  margin-left: 20px;
+}
+.gummy-transition .modal-content .ready-icon .title-ready b {
+  font-weight: 900;
+  font-size: 23px;
+  font-family: 'Circe';
+}
+
+.gummy-transition .modal-content .col-xs-12 {
+  padding-right: 0;
+}
+.gummy-transition .modal-content .affix {
+  padding-left: 0;
+  margin-top: 6px;
+}
 .gummy-transition .cd-main-content {
   background: #001d5b;
+}
+.gummy-transition .cd-modal .ready-icon {
+  background:rgba(255,255,255, 0.3);
+  margin-bottom: 25px;
+  position: relative;
 }
 .gummy-transition .cd-modal {
   background: #ff8f9b;
 }
 .gummy-transition .cd-modal .modal-content {
   color: #f2f2f2;
+  padding-top: 25px;
 }
 .gummy-transition .cd-modal .modal-close::before,
 .gummy-transition .cd-modal .modal-close::after {
@@ -216,6 +271,7 @@ Gummy Effect
 }
 .gummy-transition .cd-modal .modal-close {
   background: #cb727c;
+  right: 12px;
 }
 .gummy-transition .cd-modal .modal-close:hover {
   background: #a75e66;
