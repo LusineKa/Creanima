@@ -1423,7 +1423,7 @@ h3 {
   padding-bottom: 0px;
 }
 .features-section-6 .btn-form .btn {
-    z-index: 15;
+    z-index: 2;
    float: right;
    border: 10px solid white;
    background-color: #98bff9;
