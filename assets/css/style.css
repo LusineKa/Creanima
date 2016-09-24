@@ -1109,8 +1109,6 @@ h3 {
   width: 600px;
 }
 .hero-image-container {
-  animation: hero-fade-in 1s 0.5s linear forwards;
-  opacity: 0;
   overflow: hidden;
   position: relative;
   left: 50%;
