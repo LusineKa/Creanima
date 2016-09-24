@@ -575,6 +575,7 @@ h3 {
  * =======================
  */
 .main-navbar-top {
+  min-width: 1180px;
   border: 0px solid;
   transition: transform 0.4s, background-color 0.4s;
   -o-transition: -moz-transform 0.4s, background-color 0.4s;
@@ -1422,6 +1423,7 @@ h3 {
   padding-bottom: 0px;
 }
 .features-section-6 .btn-form .btn {
+    z-index: 15;
    float: right;
    border: 10px solid white;
    background-color: #98bff9;
@@ -1430,14 +1432,7 @@ h3 {
 .features-section-6 .btn-form .btn:hover {
   border: 10px solid white;
 }
-.features-section-6 .part-2 {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  /* right: 50%; */
-  margin: 0;
-  transform: translate(-50%,0%);
-}
+
 /**
  * =======================
  * Features Section 7
@@ -1762,8 +1757,8 @@ h3 {
   position: absolute;
   bottom: -20%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translate(-50%,-15px);
+  transform: translate(-50%,-15px);
   width: 600px;
 }
 .hero-image-container {
