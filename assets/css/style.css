@@ -1,5 +1,4 @@
-
-
+@import url("Popap Animation/style.css");
 
 .container {
   min-width: 1180px;
@@ -20,7 +19,8 @@ body {
   font-weight: 500;
   text-align: left;
   letter-spacing: 1px;
-  min-width: 1180px;
+  min-width: 100vw;
+  width: 1180px;
 }
 a {
   text-decoration: none !important;
@@ -42,23 +42,7 @@ a:focus {
   margin-bottom: 25px;
   display: inline-block;
 }
-/* Video Background */
-.background-video {
-  position: fixed;
-  z-index: -10;
-  top: 0;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-transform: translate(-50%, 0);
-  -moz-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  background: url(../video/video.jpg) no-repeat;
-  background-size: cover;
-}
+
 /* Heading Style */
 p {
   font-family: 'Exo', sans-serif;
@@ -662,6 +646,7 @@ h3 {
   display: none;
 }
 .main-navbar-top.navbar-home {
+
   transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -1320,7 +1305,6 @@ h3 {
 }
 .features-section-4 .faq-group .faq-trigger:before {
   content: '\e0da';
-  font-family: "deviserweb" !important;
   position: absolute;
   left: 34px;
 }
