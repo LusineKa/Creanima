@@ -1,5 +1,17 @@
 @import url("Popap Animation/style.css");
 
+@font-face {
+  font-family: 'Circe';
+  src: url(fonts/Circe-Bold.ttf);
+  src: url(fonts/Circe-Bold.woff);
+}
+@font-face {
+  font-family: 'Circe';
+  src: url(fonts/pt-sans.otf);
+  src: url(fonts/pt-sans.woff);
+  src: url(fonts/pt-sans.ttf);
+}
+
 .container {
   min-width: 1180px;
 }
@@ -545,7 +557,7 @@ h3 {
 .main-navbar-top .navbar-header .navbar-brand {
   display: block;
   height: 86px;
-  
+  padding: 0 !important;
 }
 .main-navbar-top .navbar-header .navbar-brand img {
   display: block;
