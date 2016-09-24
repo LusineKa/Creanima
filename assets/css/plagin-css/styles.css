@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "deviserweb";
-  src:url("fonts/deviserweb.eot");
-  src:url("fonts/deviserweb.eot?#iefix") format("embedded-opentype"),
-    url("fonts/deviserweb.woff") format("woff"),
-    url("fonts/deviserweb.ttf") format("truetype"),
-    url("fonts/deviserweb.svg#deviserweb") format("svg");
+  src:url("../../icons/deviserweb/fonts/deviserweb.eot");
+  src:url("../../icons/deviserweb/fonts/deviserweb.eot?#iefix") format("embedded-opentype"),
+    url("../../icons/deviserweb/fonts/deviserweb.woff") format("woff"),
+    url("../../icons/deviserweb/fonts/deviserweb.ttf") format("truetype"),
+    url("../../icons/deviserweb/fonts/deviserweb.svg#deviserweb") format("svg");
   font-weight: normal;
   font-style: normal;
 
