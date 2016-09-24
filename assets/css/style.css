@@ -640,17 +640,6 @@ h3 {
  * Header Style 1
  * ===============================
 */
-.header-bg-1 {
-  background: url('../images/import/hero-wall.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center 0;
-  background-attachment: initial;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-}
 .header {
   position: relative;
 }

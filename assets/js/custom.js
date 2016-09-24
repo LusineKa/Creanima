@@ -1,4 +1,4 @@
-jQuery(document).load(function($){
+jQuery(document).ready(function($){
     //cache some jQuery objects
     var modalTrigger = $('.cd-modal-trigger'),
         transitionLayer = $('.cd-transition-layer'),
