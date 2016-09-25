@@ -15,7 +15,6 @@ jQuery(document).ready(function($){
         if( !resize ) {
             resize = true;
             (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
-            $('.cd-modal').css('min-height','100vh');
         }
     });
 
