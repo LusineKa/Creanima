@@ -51,6 +51,8 @@ h1 {
   left: 0;
   z-index: 20;
   height: 100%;
+  min-height: 120vh;
+  min-width: 100vw;
   width: 100%;
   overflow: hidden;
   opacity: 0;
@@ -619,10 +621,4 @@ Animations
   -moz-transform: translateX(0px) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -webkit-transform: translateX(0px) translateY(0) translateZ(0) rotate(0deg) scale(1);
   opacity: 1;
-}
-
-@media (max-width: 739px) {
-  .cd-modal{
-    min-height: 120vh;
-  }
 }
