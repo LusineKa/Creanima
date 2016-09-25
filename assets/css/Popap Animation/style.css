@@ -620,3 +620,9 @@ Animations
   -webkit-transform: translateX(0px) translateY(0) translateZ(0) rotate(0deg) scale(1);
   opacity: 1;
 }
+
+@media (max-width: 739px) {
+  .cd-modal{
+    min-height: 120vh;
+  }
+}
