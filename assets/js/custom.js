@@ -26,10 +26,8 @@ jQuery(document).ready(function($){
         transitionLayer.addClass('visible opening');
         var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 800;
         setTimeout(function(){
-            $('body').css(
-                'overflow','hidden',
-                'position','fixed'
-            );
+            $('body').css('overflow','hidden');
+            $('body').css('position','fixed');
             modalWindow.addClass('visible');
             transitionLayer.removeClass('opening');
             $('#main-navbar-top').fadeOut();
@@ -42,6 +40,7 @@ jQuery(document).ready(function($){
         modalWindow.css('transition','none').addClass('visible');
         transitionLayer.addClass('visible');
         $('body').css('overflow','hidden');
+        $('body').css('position','fixed');
         event.preventDefault();
     }
 
@@ -52,10 +51,8 @@ jQuery(document).ready(function($){
         transitionLayer.addClass('closing');
         modalWindow.removeClass('visible');
         transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
-            $('body').css(
-                'overflow','auto',
-                'position','relative'
-            );
+            $('body').css('overflow','auto');
+            $('body').css('position','relative');
             transitionLayer.removeClass('closing opening visible');
             transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
             $('#main-navbar-top').fadeIn();
