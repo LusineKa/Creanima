@@ -1113,7 +1113,7 @@ h3 {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-51%);
   width: 590px;
   height: 340px;
 }

@@ -15,6 +15,7 @@ jQuery(document).ready(function($){
         if( !resize ) {
             resize = true;
             (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
+            $('.cd-modal').css('min-height','100vh');
         }
     });
 
@@ -25,22 +26,20 @@ jQuery(document).ready(function($){
         var modalId = $(event.target).attr('href');
         transitionLayer.addClass('visible opening');
         var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 800;
+        $('#main-navbar-top').fadeOut();
         setTimeout(function(){
             $('body').css( 'overflow','hidden');
-            $('body').css( 'position','fixed');
-            modalWindow.addClass('visible');
             transitionLayer.removeClass('opening');
-            $('#main-navbar-top').fadeOut();
-
+            modalWindow.addClass('visible');
+            event.preventDefault();
         }, delay);
     });
 
     if(window.location.hash == "#themplates"){
         $('#main-navbar-top').hide();
+        $('body').css( 'overflow','hidden');
         modalWindow.css('transition','none').addClass('visible');
         transitionLayer.addClass('visible');
-        $('body').css( 'overflow','hidden');
-        $('body').css( 'position','fixed');
         event.preventDefault();
     }
 
@@ -51,11 +50,10 @@ jQuery(document).ready(function($){
         transitionLayer.addClass('closing');
         modalWindow.removeClass('visible');
         transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
+            $('#main-navbar-top').fadeIn();
             $('body').css( 'overflow','auto');
-            $('body').css( 'position','relative');
             transitionLayer.removeClass('closing opening visible');
             transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
-            $('#main-navbar-top').fadeIn();
         });
     });
 
