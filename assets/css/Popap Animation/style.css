@@ -225,6 +225,7 @@ Gummy Effect
   font-size: 20px;
   left: 68px;
   font-family: 'Circe';
+  color: rgba(55,55,55,.75);
 }
 
 .gummy-transition .modal-content .ready-icon .phone-ready {
@@ -234,6 +235,7 @@ Gummy Effect
   top: 43px;
   right: 20px;
   font-family: 'Circe';
+  color: rgba(55,55,55,.75);
 }
 .gummy-transition .modal-content .ready-icon .mail-ready {
   font-size: 20px;
@@ -241,6 +243,7 @@ Gummy Effect
   top: 16px;
   right: 20px;
   font-family: 'Circe';
+  color: rgba(55,55,55,.75);
 }
 .gummy-transition .modal-content .ready-icon img {
   margin-left: 20px;
@@ -262,9 +265,10 @@ Gummy Effect
   background: #001d5b;
 }
 .gummy-transition .cd-modal .ready-icon {
-  background:rgba(255,255,255, 0.3);
+  background-color: rgba(255,255,255,.85);
   margin-bottom: 25px;
   position: relative;
+  color:white;
 }
 .gummy-transition .cd-modal {
   background: #ff8f9b;
