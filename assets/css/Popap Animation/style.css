@@ -221,9 +221,9 @@ Gummy Effect
 }
 .gummy-transition .modal-content .ready-icon .title-ready {
   position: absolute;
-  top: 17px;
+  top: 16px;
   font-size: 20px;
-  left: 68px;
+  left: 100px;
   font-family: 'Circe';
   color: rgba(55,55,55,.75);
 }
@@ -276,6 +276,7 @@ Gummy Effect
 .gummy-transition .cd-modal .modal-content {
   color: #f2f2f2;
   padding-top: 25px;
+  padding-bottom: 0;
 }
 .gummy-transition .cd-modal .modal-close::before,
 .gummy-transition .cd-modal .modal-close::after {
@@ -408,7 +409,6 @@ Animations
   top: auto;
   left: 0;
   bottom: 0;
-  z-index: 10;
   -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
   -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
   transition: transform 0.4s, opacity 0.1s 0.3s;
@@ -456,7 +456,7 @@ Animations
   -ms-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   opacity: 0;
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 .features-section-2 .grid .grid-item figure figcaption .sub-title {
   position: absolute;
@@ -506,27 +506,25 @@ Animations
   display: block;
   clear: both;
 }
-.modal-content  .grid .grid-item {
+.modal-content  .grid {
   padding: 5px;
 }
-.modal-content  .grid .grid-item figure {
-  margin: 0;
+.modal-content  .container {
   position: relative;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-  -ms-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
 }
-.modal-content  .grid .grid-item figure img {
+.modal-content .col-xs-2 {
+  position: fixed;
+  max-width: 225px;
+}
+.modal-content  .grid .col-xs-4 {
+  padding: 0;
+}
+
+.modal-content  .grid  img {
   width: 100%;
-  display: block;
-  position: relative;
-  -webkit-transition: -webkit-transform 0.4s;
-  -moz-transition: -moz-transform 0.4s;
-  transition: transform 0.4s;
+  padding:10px;
 }
+
 .modal-content .grid .grid-item figure figcaption {
   position: absolute;
   padding: 15px;
@@ -535,12 +533,16 @@ Animations
   top: auto;
   left: 0;
   bottom: 0;
-  z-index: 10;
   -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
   -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
   transition: transform 0.4s, opacity 0.1s 0.3s;
   z-index: 1;
 }
+
+#sidebar {
+  margin-top: 15px;
+}
+
 .modal-content .grid .grid-item figure figcaption:after {
   content: '';
   position: absolute;
