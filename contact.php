@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+
 <section class="banner-sec">
     <div class="inner-banner"
          style=" background:url(img/banner-bg.jpg) no-repeat top center fixed; background-size:cover;">
@@ -73,4 +74,5 @@
         </div>
     </div>
 </section>
+
 <?php include 'footer.php'; ?>
