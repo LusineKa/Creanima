@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="button-large" href="portfolio.php">View All Projects</a></div>
+                    <a class="button-large" href="portfolio.php">Подробнее</a></div>
             </div>
         </div>
     </div>
