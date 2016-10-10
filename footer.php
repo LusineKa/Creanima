@@ -5,23 +5,22 @@
                 <div class="footer-content-area">
                     <div class="col-md-6">
                         <div class="logo"><a href="index.php"><img src="img/bottom-logo.png" alt=""></a></div>
-                        <h5>The Design Studio Based in UK</h5>
+                        <h5><i class="fa fa-phone"  aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-whatsapp">&nbsp;&nbsp;</i><i class="fa fa-paper-plane"></i> +7 906 590 44 41</h5>
+                        <h5><i class="fa fa-envelope-o" aria-hidden="true"></i> creanima.info</h5>
+                        <h5><i class="fa fa-skype" aria-hidden="true"></i> creanima.info</h5>
                         <ul class="social-media-sec">
                             <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-viber fa-2x"></i></i></a></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <div class="right-sec"><a href="contact.php" class="button-medium">Contact us</a></div>
+                        <div class="right-sec"><a href="contact.php" class="button-medium">Свяжитесь с нами</a></div>
                     </div>
                 </div>
                 <div class="copyright">
-                    <div class="container"><p>Copyright © 2016 Pling <span> | </span> handcrafted by <a
-                                href="http://responsiveexpert.com">Responsiveexpert </a>Team</p></div>
+                    <div class="container"><p>Copyright © 2016 Creanima <span> </p></div>
                 </div>
             </div>
         </div>
