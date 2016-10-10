@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
     <meta charset="utf-8">
     <title>Pling - Multi-purpose Bootstrap Template</title>
@@ -37,21 +37,15 @@
                         <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="services.php">Services</a></li>
-                        <li><a href="#">Portfolio</a>
-                            <ul>
-                                <li><a href="portfolio.php">Portfolio 1</a></li>
-                                <li><a href="portfolio-1.php">Portfolio 2</a></li>
-                                <li><a href="portfolio-2.php">Portfolio 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="blog.php">Blog</a></li>
-                                <li><a href="blog-detail.php">Blog Detail</a></li>
-                                <li><a href="typography.php">Typography</a></li>
-                                <li><a href="shortcodes.php">Shortcodes</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="portfolio.php">Portfolio</a></li>
+<!--                        <li><a href="#">Pages</a>-->
+<!--                            <ul>-->
+<!--                                <li><a href="blog.php">Blog</a></li>-->
+<!--                                <li><a href="blog-detail.php">Blog Detail</a></li>-->
+<!--                                <li><a href="typography.php">Typography</a></li>-->
+<!--                                <li><a href="shortcodes.php">Shortcodes</a></li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
                         <li><a href="contact.php">contact</a></li>
                     </ul>
                 </nav>
