@@ -40,8 +40,8 @@
                         <li><a href="services.html">Services</a></li>
                         <li class="active"><a href="#">Portfolio</a>
                             <ul>
-                                <li><a href="portfolio.html">Portfolio 1</a></li>
-                                <li><a href="portfolio-1.html">Portfolio 2</a></li>
+                                <li><a href="portfolio.php">Portfolio 1</a></li>
+                                <li><a href="portfolio-1.php">Portfolio 2</a></li>
                                 <li><a href="portfolio-2.html">Portfolio 3</a></li>
                             </ul>
                         </li>
@@ -78,12 +78,19 @@
             </div>
             <div class="portfolio-items">
                 <div class="container">
-                    <div class="mini-grid-area">
-                        <div class="col-md-4">
+                    <ul class="simplefilter">
+                        <li class="active" data-filter="all">View All</li>
+                        <li data-filter="1">Web Design</li>
+                        <li data-filter="2">Wordpress</li>
+                        <li data-filter="3">Illustrations</li>
+                        <li data-filter="4">Mobile App</li>
+                    </ul>
+                    <div class="filtr-container">
+                        <div class="col-md-4 filtr-item" data-category="1, 4" data-sort="Busy streets">
                             <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/work-3.jpg">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-1.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/work-3.jpg" class="ovelay-icon"
+                                        <div class="text-content"><a href="img/portfolio-1.jpg" class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                 class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
                                                                                                          class="ovelay-icon"><i
@@ -92,111 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-8.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio-8.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/thought-1.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/thought-1.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/thought-2.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/thought-2.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/blog-5.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/blog-5.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/thought-3.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/thought-3.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/team-member-2.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/team-member-2.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/thought-4.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/thought-4.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-9.jpg">
-                                    <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio-9.jpg" class="ovelay-icon"
-                                                                     data-featherlight="image"><i
-                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
-                                                                                                         class="ovelay-icon"><i
-                                                class="fa fa-link" aria-hidden="true"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 filtr-item" data-category="2, 3" data-sort="Luminous night">
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio-2.jpg">
                                     <div class="mask">
@@ -209,11 +112,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 filtr-item" data-category="1, 4" data-sort="Web Design, Mobile App">
                             <div class="img-content-box">
-                                <div class="thumbnail-holder"><img alt="" src="img/blog-6.jpg">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-3.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/blog-6.jpg" class="ovelay-icon"
+                                        <div class="text-content"><a href="img/portfolio-3.jpg" class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                 class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
                                                                                                          class="ovelay-icon"><i
@@ -222,7 +125,111 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 filtr-item" data-category="2" data-sort="Wordpress">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-4.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-4.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="3" data-sort="Illustrations">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-5.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-5.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="3, 4" data-sort="Illustrations, Mobile App">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-6.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-6.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="3, 4" data-sort="Illustrations, Mobile App">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-7.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-7.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="1, 4" data-sort="Web Design, Mobile App">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-8.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-8.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="2, 4" data-sort="Wordpress, Mobile App">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-9.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-9.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="3, 1" data-sort="Illustrations, Web Design">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-10.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-10.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="4, 2" data-sort="Mobile App, Wordpress">
+                            <div class="img-content-box">
+                                <div class="thumbnail-holder"><img alt="" src="img/portfolio-11.jpg">
+                                    <div class="mask">
+                                        <div class="text-content"><a href="img/portfolio-11.jpg" class="ovelay-icon"
+                                                                     data-featherlight="image"><i
+                                                class="fa fa-search-plus" aria-hidden="true"></i></a> <a href="#"
+                                                                                                         class="ovelay-icon"><i
+                                                class="fa fa-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 filtr-item" data-category="3" data-sort="Illustrations">
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio-12.jpg">
                                     <div class="mask">
@@ -280,5 +287,9 @@
 <script type="text/javascript" src="js/featherlight.min.js"></script>
 <script type="text/javascript" src="js/forms.js"></script>
 <script type="text/javascript" src="js/animation.js"></script>
+<script type="text/javascript" src="js/jquery.filterizr.js"></script>
+<script type="text/javascript">$(function () {
+    $('.filtr-container').filterizr();
+}); </script>
 </body>
 </html>

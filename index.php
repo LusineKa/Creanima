@@ -1,64 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="utf-8">
-    <title>Pling - Multi-purpose Bootstrap Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="" content=""/>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+<?php include 'header.php'; ?>
 
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link type="text/css" rel="stylesheet" href="css/animate.min.css">
-    <link type="text/css" rel="stylesheet" href="css/flexslider.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,100italic,300,100,300italic,400italic,700,700italic,900,900italic'
-          rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300'
-          rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id="mask">
-    <div id="loader"></div>
-</div>
-<header class="header-area">
-    <div class="container">
-        <div class="col-md-4 left-side">
-            <div class="logo"><a href="index.html"> <img src="img/top-logo.png" alt=""></a></div>
-        </div>
-        <div class="mob-icon"><i class="fa fa-bars"></i></div>
-        <div class="col-md-8 right-side">
-            <div class="menu-bar">
-                <nav>
-                    <ul class="menu">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="#">Portfolio</a>
-                            <ul>
-                                <li><a href="portfolio.html">Portfolio 1</a></li>
-                                <li><a href="portfolio-1.html">Portfolio 2</a></li>
-                                <li><a href="portfolio-2.html">Portfolio 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-detail.html">Blog Detail</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
 <section class="banner-sec">
     <div class="main-banner"
          style=" background:url(img/banner-bg.jpg) no-repeat top center fixed; background-size:cover;">
@@ -75,7 +16,7 @@
                                         </div>
                                         <div class="half-div"><h2>We Bring Feelings in Your Products</h2> <a href="#"
                                                                                                              class="button-medium">Read
-                                            More</a></div>
+                                                More</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -85,7 +26,7 @@
                                         </div>
                                         <div class="half-div"><h2>We Helps <br>To The Perfect Business</h2> <a href="#"
                                                                                                                class="button-medium">Read
-                                            More</a></div>
+                                                More</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -196,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="button-large" href="portfolio.html">View All Projects</a></div>
+                    <a class="button-large" href="portfolio.php">View All Projects</a></div>
             </div>
         </div>
     </div>
@@ -209,40 +150,40 @@
                 <div class="img-content-box">
                     <div class="thumbnail-holder"><a href="img/thought-1.jpg" data-featherlight="image"><img alt=""
                                                                                                              src="img/thought-1.jpg">
-                        <div class="mask">
-                            <div class="text-content"><h5>The Special Sea</h5></div>
-                        </div>
-                    </a></div>
+                            <div class="mask">
+                                <div class="text-content"><h5>The Special Sea</h5></div>
+                            </div>
+                        </a></div>
                 </div>
             </li>
             <li>
                 <div class="img-content-box">
                     <div class="thumbnail-holder"><a href="img/thought-2.jpg" data-featherlight="image"><img alt=""
                                                                                                              src="img/thought-2.jpg">
-                        <div class="mask">
-                            <div class="text-content"><h5>Work Hard</h5></div>
-                        </div>
-                    </a></div>
+                            <div class="mask">
+                                <div class="text-content"><h5>Work Hard</h5></div>
+                            </div>
+                        </a></div>
                 </div>
             </li>
             <li>
                 <div class="img-content-box">
                     <div class="thumbnail-holder"><a href="img/thought-3.jpg" data-featherlight="image"><img alt=""
                                                                                                              src="img/thought-3.jpg">
-                        <div class="mask">
-                            <div class="text-content"><h5>Working Women</h5></div>
-                        </div>
-                    </a></div>
+                            <div class="mask">
+                                <div class="text-content"><h5>Working Women</h5></div>
+                            </div>
+                        </a></div>
                 </div>
             </li>
             <li>
                 <div class="img-content-box">
                     <div class="thumbnail-holder"><a href="img/thought-4.jpg" data-featherlight="image"><img alt=""
                                                                                                              src="img/thought-4.jpg">
-                        <div class="mask">
-                            <div class="text-content"><h5>Enjoy Music</h5></div>
-                        </div>
-                    </a></div>
+                            <div class="mask">
+                                <div class="text-content"><h5>Enjoy Music</h5></div>
+                            </div>
+                        </a></div>
                 </div>
             </li>
         </ul>
@@ -260,45 +201,5 @@
         </ul>
     </div>
 </section>
-<footer>
-    <div class="footer-area" style="background:url(img/footer-bg.jpg) no-repeat bottom center fixed">
-        <div class="overlay">
-            <div class="container">
-                <div class="footer-content-area">
-                    <div class="col-md-6">
-                        <div class="logo"><a href="index.html"><img src="img/bottom-logo.png" alt=""></a></div>
-                        <h5>The Design Studio Based in UK</h5>
-                        <ul class="social-media-sec">
-                            <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="right-sec"><a href="contact.html" class="button-medium">Contact us</a></div>
-                    </div>
-                </div>
-                <div class="copyright">
-                    <div class="container"><p>Copyright © 2016 Pling <span> | </span> handcrafted by <a
-                            href="http://responsiveexpert.com">Responsiveexpert </a>Team</p></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/owl-carousel-settings.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-<script type="text/javascript" src="js/mini-grid.js"></script>
-<script type="text/javascript" src="js/settings.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/featherlight.min.js"></script>
-<script type="text/javascript" src="js/forms.js"></script>
-<script type="text/javascript" src="js/animation.js"></script>
-</body>
-</html>
 
+<?php include 'footer.php'; ?>
