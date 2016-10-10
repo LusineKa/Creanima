@@ -140,64 +140,66 @@
         </div>
     </div>
 </section>
-<section class="home-thoughts-area">
-    <div class="our-thoughts-sec">
-        <div class="main-title"><h2>Our Thoughts</h2></div>
-        <ul class="thought-items">
-            <li>
-                <div class="img-content-box">
-                    <div class="thumbnail-holder"><a href="img/thought-1.jpg" data-featherlight="image"><img alt=""
-                                                                                                             src="img/thought-1.jpg">
-                            <div class="mask">
-                                <div class="text-content"><h5>The Special Sea</h5></div>
-                            </div>
-                        </a></div>
-                </div>
-            </li>
-            <li>
-                <div class="img-content-box">
-                    <div class="thumbnail-holder"><a href="img/thought-2.jpg" data-featherlight="image"><img alt=""
-                                                                                                             src="img/thought-2.jpg">
-                            <div class="mask">
-                                <div class="text-content"><h5>Work Hard</h5></div>
-                            </div>
-                        </a></div>
-                </div>
-            </li>
-            <li>
-                <div class="img-content-box">
-                    <div class="thumbnail-holder"><a href="img/thought-3.jpg" data-featherlight="image"><img alt=""
-                                                                                                             src="img/thought-3.jpg">
-                            <div class="mask">
-                                <div class="text-content"><h5>Working Women</h5></div>
-                            </div>
-                        </a></div>
-                </div>
-            </li>
-            <li>
-                <div class="img-content-box">
-                    <div class="thumbnail-holder"><a href="img/thought-4.jpg" data-featherlight="image"><img alt=""
-                                                                                                             src="img/thought-4.jpg">
-                            <div class="mask">
-                                <div class="text-content"><h5>Enjoy Music</h5></div>
-                            </div>
-                        </a></div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="home-client-area">
-    <div class="our-client-sec"><h3></h3>
-        <ul class="client-list-box">
-            <li><img src="img/client-1.png" alt=""></li>
-            <li><img src="img/client-2.png" alt=""></li>
-            <li><img src="img/client-3.png" alt=""></li>
-            <li><img src="img/client-4.png" alt=""></li>
-            <li><img src="img/client-5.png" alt=""></li>
-            <li><img src="img/client-6.png" alt=""></li>
-        </ul>
-    </div>
-</section>
+
+<!---->
+<!--<section class="home-thoughts-area">-->
+<!--    <div class="our-thoughts-sec">-->
+<!--        <div class="main-title"><h2>Our Thoughts</h2></div>-->
+<!--        <ul class="thought-items">-->
+<!--            <li>-->
+<!--                <div class="img-content-box">-->
+<!--                    <div class="thumbnail-holder"><a href="img/thought-1.jpg" data-featherlight="image"><img alt=""-->
+<!--                                                                                                             src="img/thought-1.jpg">-->
+<!--                            <div class="mask">-->
+<!--                                <div class="text-content"><h5>The Special Sea</h5></div>-->
+<!--                            </div>-->
+<!--                        </a></div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="img-content-box">-->
+<!--                    <div class="thumbnail-holder"><a href="img/thought-2.jpg" data-featherlight="image"><img alt=""-->
+<!--                                                                                                             src="img/thought-2.jpg">-->
+<!--                            <div class="mask">-->
+<!--                                <div class="text-content"><h5>Work Hard</h5></div>-->
+<!--                            </div>-->
+<!--                        </a></div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="img-content-box">-->
+<!--                    <div class="thumbnail-holder"><a href="img/thought-3.jpg" data-featherlight="image"><img alt=""-->
+<!--                                                                                                             src="img/thought-3.jpg">-->
+<!--                            <div class="mask">-->
+<!--                                <div class="text-content"><h5>Working Women</h5></div>-->
+<!--                            </div>-->
+<!--                        </a></div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="img-content-box">-->
+<!--                    <div class="thumbnail-holder"><a href="img/thought-4.jpg" data-featherlight="image"><img alt=""-->
+<!--                                                                                                             src="img/thought-4.jpg">-->
+<!--                            <div class="mask">-->
+<!--                                <div class="text-content"><h5>Enjoy Music</h5></div>-->
+<!--                            </div>-->
+<!--                        </a></div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="home-client-area">-->
+<!--    <div class="our-client-sec"><h3></h3>-->
+<!--        <ul class="client-list-box">-->
+<!--            <li><img src="img/client-1.png" alt=""></li>-->
+<!--            <li><img src="img/client-2.png" alt=""></li>-->
+<!--            <li><img src="img/client-3.png" alt=""></li>-->
+<!--            <li><img src="img/client-4.png" alt=""></li>-->
+<!--            <li><img src="img/client-5.png" alt=""></li>-->
+<!--            <li><img src="img/client-6.png" alt=""></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</section>-->
 
 <?php include 'footer.php'; ?>
