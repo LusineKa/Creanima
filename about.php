@@ -15,49 +15,46 @@
             <div class="container">
                 <div class="about-us-area">
                     <div class="col-md-12">
-                        <div class="main-title about"><h3>We are Awesome,<br>A creative studio based in UK. </h3></div>
+                        <div class="main-title about"><h3>
+                                Создать сайт в Компании «Creanima»</h3></div>
                     </div>
                     <div class="col-md-6">
                         <div class="image-holder"><img src="img/about-item.png" alt=""></div>
                     </div>
                     <div class="col-md-6">
-                        <div class="about-text-sec"><h5>The perfect concepts</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                            <p> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                                molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                        <div class="about-text-sec"><h5>СОЗДАНИЕ САЙТОВ – НАШЕ ПРИЗВАНИЕ!</h5>
+                            <p>Сайт – это визитная карточка вашего бизнеса. И не важно идет речь о корпоративном сайте, сайте-визитке или интернет-магазине. Ваш сайт – это ваше лицо. А значит встречать и оценивать вас клиенты и конкуренты прежде всего будут по нему. Именно поэтому стоит доверить создание сайта профессионалам.
+                                Компания «Айтекс-Веб» занимается разработкой сайтов с 1998 года. С 2010 года в топ 10 рейтинга Веб-студий по России СНГ. Успешная практика в данной сфере позволила нам выйти за пределы рынка Екатеринбурга и предлагать свои услуги компаниям по всей России и СНГ. Сегодня создание и ведение своих сайтов нам доверяют крупные промышленные предприятия, известные интернет-магазины, начинающие предприниматели и организации всероссийского масштаба..</p>
+                            <p>Разработка сайта – это первоначальный этап любого бизнеса. И здесь главное правильно выбрать компанию, которая будет заниматься дизайном или созданием сайта под ключ. В нашей стране огромное количество компаний, которые работают на рынке IT-услуг. Поэтому прежде, чем заказать изготовление сайта, убедитесь, что ваш выбор пал на профессионалов.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="content-area light-grey">
                 <div class="container what-we-do-area">
-                    <div class="main-title"><h3>What We Do</h3></div>
+                    <div class="main-title"><h3>Наши услуги </h3></div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/home-feature-icon-1.png"></div>
-                            <div class="features-text"><h5>Branding Identity</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                            <div class="features-text"><h5>Landing Page</h5>
+                                <p>Посадочная страница разрабатывается как основной или дополнительный сайт компании. Лендинги отлично подходят для проведения рекламной кампании на конкретный товар или услугу с уникальной (низкой) ценой и привлечения на сайт целевой аудитории из контекстной рекламы
+                                    (Яндекс.Директ, Google AdWords), социальных сетей или E-mail рассылок.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/home-feature-icon-2.png"></div>
-                            <div class="features-text"><h5>UI / UX Design</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                            <div class="features-text"><h5>Статичный корпоративный сайт</h5>
+                                <p>Готовые сайты с проработанной структурой под различные виды деятельности, требуют минимум времени и затрат для запуска сайта. Выберите себе готовый вариант сайта по одной из следующих тематик: Строительство, Юридические услуги,
+                                    Дизайн интерьера, Автосервис, Бухгалтерия и аудит, Фотостудия, Сайт школы, Туристическое агентство, ...</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/home-feature-icon-3.png"></div>
-                            <div class="features-text"><h5>Ilustrations</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                            <div class="features-text"><h5>Сайт Визитка</h5>
+                                <p>Визитка - самый недорогой вид одностраничного сайта. Подходит, если Вам нужно заявить о своей компании, описать всего один товар или услугу и запустить контекстную рекламу. Либо
+                                    как первый сайт, который потребует минимум времени для запуска. В дальнейшем возможен переход на любой тариф.</p></div>
                         </div>
                     </div>
                 </div>
