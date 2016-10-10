@@ -9,8 +9,9 @@
         </div>
     </div>
 </section>
+
 <section class="content-area-sec">
-    <div class="content-area-with-bg">
+    <div class="content-area-with-bg no-team">
         <div class="about-area-sec">
             <div class="container">
                 <div class="about-us-area">
@@ -58,83 +59,6 @@
                             <div class="features-text"><h5>Ilustrations</h5>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                                     laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="our-team-detail-sec">
-                <div class="content-area">
-                    <div class="container">
-                        <div class="col-md-12">
-                            <div class="main-title"><h3>Our Awesome Team</h3></div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="team-member">
-                                <div class="team-member-box">
-                                    <div class="image-holder"><img src="img/team-member-1.jpg" alt=""></div>
-                                    <div class="text-box"><h6>Leena Maria</h6>
-                                        <p>Creative Head</p></div>
-                                    <ul class="social-icon-sec">
-                                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="team-member">
-                                <div class="team-member-box">
-                                    <div class="image-holder"><img src="img/team-member-2.jpg" alt=""></div>
-                                    <div class="text-box"><h6>John Paul</h6>
-                                        <p>Creative Director</p></div>
-                                    <ul class="social-icon-sec">
-                                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="team-member">
-                                <div class="team-member-box">
-                                    <div class="image-holder"><img src="img/team-member-3.jpg" alt=""></div>
-                                    <div class="text-box"><h6>Mark Johnson</h6>
-                                        <p>UI /UX Designer</p></div>
-                                    <ul class="social-icon-sec">
-                                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="team-member">
-                                <div class="team-member-box">
-                                    <div class="image-holder"><img src="img/team-member-4.jpg" alt=""></div>
-                                    <div class="text-box"><h6>John Muro</h6>
-                                        <p>Programmer</p></div>
-                                    <ul class="social-icon-sec">
-                                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
