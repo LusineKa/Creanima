@@ -1,5 +1,0 @@
-.idea
-node_modules
-test
-ajax/file_uploader_test/files/
-.htaccess

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#portfolio-slider").owlCarousel({navigation:!0,slideSpeed:300,pagination:!0,singleItem:!0})}),$(document).ready(function(){var o=$("#owl-demo-testimonial");o.owlCarousel({itemsCustom:[[0,1],[480,1],[600,2],[700,2],[1e3,2],[1200,2],[1400,2],[1600,2]],navigation:!0,autoPlay:!0,stopOnHover:!0})});
