@@ -94,7 +94,7 @@
                                                                              class="ovelay-icon"
                                                                              href="img/work-1.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
-                                                    <a class="ovelay-icon" href="#"><i aria-hidden="true"
+                                                    <a class="ovelay-icon" data-link="http://list.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
                                             </div>
                                         </div>
@@ -110,7 +110,7 @@
                                                                              class="ovelay-icon"
                                                                              href="img/work-2.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
-                                                    <a class="ovelay-icon" href="#"><i aria-hidden="true"
+                                                    <a class="ovelay-icon" data-link="http://auto.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@
                                                                              class="ovelay-icon"
                                                                              href="img/work-3.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
-                                                    <a class="ovelay-icon" href="#"><i aria-hidden="true"
+                                                    <a class="ovelay-icon" data-link="http://aravot.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
                                             </div>
                                         </div>
