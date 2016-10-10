@@ -14,9 +14,8 @@
                                         <div class="half-div">
                                             <figure><img src="img/banner-img-01.png" alt=""></figure>
                                         </div>
-                                        <div class="half-div"><h2>We Bring Feelings in Your Products</h2> <a href="#"
-                                                                                                             class="button-medium">Read
-                                                More</a></div>
+                                        <div class="half-div"><h2>Вы можете заказать лендинг пейдж за 2500 рублей!</h2> <a href="#"
+                                                                                                             class="button-medium">Заказать</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -24,9 +23,8 @@
                                         <div class="half-div">
                                             <figure><img src="img/banner-img-02.png" alt=""></figure>
                                         </div>
-                                        <div class="half-div"><h2>We Helps <br>To The Perfect Business</h2> <a href="#"
-                                                                                                               class="button-medium">Read
-                                                More</a></div>
+                                        <div class="half-div"><h2>Сотни готовых сайтов<br> для различных сфер бизнеса<br> с адаптивным дизайном</h2> <a href="#"
+                                                                                                               class="button-medium">Заказать</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -34,8 +32,8 @@
                                         <div class="half-div">
                                             <figure><img src="img/banner-img-03.png" alt=""></figure>
                                         </div>
-                                        <div class="half-div"><h2>We Design <br>An Awesome Web Structures</h2> <a
-                                                href="#" class="button-medium">Read More</a></div>
+                                        <div class="half-div"><h2>Обеспечиваем надежность и безопасность Вашего сайта</h2> <a
+                                                href="#" class="button-medium">Заказать</a></div>
                                     </div>
                                 </li>
                             </ul>
@@ -51,26 +49,26 @@
         <div class="home-feature-content">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="main-title"><h1>What <br>We <br>Do </h1></div>
+                    <div class="main-title"><h1>Какие услуги<br> мы готовы<br> предложить вам?</h1></div>
                 </div>
                 <div class="col-md-6">
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-1.png" alt=""></div>
-                        <div class="features-text"><h5>Branding Identity</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                        <div class="features-text"><h5>Landing Page</h5>
+                            <p>Посадочная страница разрабатывается как основной или дополнительный сайт компании. Лендинги отлично подходят для проведения рекламной кампании на конкретный товар или услугу с уникальной (низкой) ценой и привлечения на сайт целевой аудитории из контекстной рекламы
+                                (Яндекс.Директ, Google AdWords), социальных сетей или E-mail рассылок.</p></div>
                     </div>
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-2.png" alt=""></div>
-                        <div class="features-text"><h5>UI / UX Design</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                        <div class="features-text"><h5>Статичный корпоративный сайт</h5>
+                            <p>Готовые сайты с проработанной структурой под различные виды деятельности, требуют минимум времени и затрат для запуска сайта. Выберите себе готовый вариант сайта по одной из следующих тематик: Строительство, Юридические услуги,
+                                Дизайн интерьера, Автосервис, Бухгалтерия и аудит, Фотостудия, Сайт школы, Туристическое агентство, ...</p></div>
                     </div>
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-3.png" alt=""></div>
-                        <div class="features-text"><h5>Ilustrations</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p></div>
+                        <div class="features-text"><h5>Сайт Визитка</h5>
+                            <p>Визитка - самый недорогой вид одностраничного сайта. Подходит, если Вам нужно заявить о своей компании, описать всего один товар или услугу и запустить контекстную рекламу. Либо
+                                как первый сайт, который потребует минимум времени для запуска. В дальнейшем возможен переход на любой тариф.</p></div>
                     </div>
                 </div>
             </div>
@@ -81,7 +79,7 @@
     <div class="portfolio-bg-area">
         <div class="container">
             <div class="col-md-6">
-                <div class="main-title"><h1>Our<br>Latest<br>Works</h1></div>
+                <div class="main-title"><h1>Наши<br> последние<br> работы</h1></div>
             </div>
             <div class="col-md-6">
                 <div class="home-portfolio-sec">
