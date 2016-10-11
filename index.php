@@ -88,7 +88,7 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/work-1.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio-6.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
@@ -104,7 +104,7 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/work-2.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio-7.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
@@ -120,7 +120,7 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/work-3.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio-8.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
