@@ -4,7 +4,6 @@
     <div class="inner-banner"
          style=" background:url(img/banner-bg.jpg) no-repeat top center fixed; background-size:cover;">
         <div class="overlay-mask">
-            <div class="container"><h2>СВЯЗЬ С НАМИ</h2></div>
         </div>
     </div>
 </section>
