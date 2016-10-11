@@ -34,20 +34,18 @@
             <div class="menu-bar">
                 <nav>
                     <ul class="menu">
-                        <li class="active"><a href="index.php">Главное</a></li>
-                        <li><a href="about.php">Про нас</a></li>
-                        <li><a href="services.php">Услуги</a></li>
-                        <li><a href="catalog.php">Дизайн из каталога</a> <img class="coming-soon" src="img/coming-soon.png"></li>
-                        <li><a href="portfolio.php">Наши работы</a></li>
-<!--                        <li><a href="#">Pages</a>-->
-<!--                            <ul>-->
-<!--                                <li><a href="blog.php">Blog</a></li>-->
-<!--                                <li><a href="blog-detail.php">Blog Detail</a></li>-->
-<!--                                <li><a href="typography.php">Typography</a></li>-->
-<!--                                <li><a href="shortcodes.php">Shortcodes</a></li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
-                        <li><a href="contact.php">Связь с нами</a></li>
+                        <?php
+                        $full_name = $_SERVER['PHP_SELF'];
+                        $name_array = explode('/',$full_name);
+                        $count = count($name_array);
+                        $page_name = $name_array[$count-1];
+                        ?>
+                        <li class="<?php echo ($page_name=='index.php')?'active':'';?>"><a href="index.php">Главное</a></li>
+                        <li class="<?php echo ($page_name=='about.php')?'active':'';?>"><a href="about.php">Про нас</a></li>
+                        <li class="<?php echo ($page_name=='services.php')?'active':'';?>"><a href="services.php">Услуги</a></li>
+                        <li class="<?php echo ($page_name=='catalog.php')?'active':'';?>"><a href="catalog.php">Дизайн из каталога</a> <img class="coming-soon" src="img/coming-soon.png"></li>
+                        <li class="<?php echo ($page_name=='portfolio.php')?'active':'';?>"><a href="portfolio.php">Наши работы</a></li>
+                        <li class="<?php echo ($page_name=='contact.php')?'active':'';?>"><a href="contact.php">Связь с нами</a></li>
                     </ul>
                 </nav>
             </div>
