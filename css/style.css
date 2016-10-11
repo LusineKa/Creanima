@@ -2908,14 +2908,16 @@ option {
     min-height: 220px;
     line-height: 60px;
     padding: 0 30px
+
 }
 
 .contact-form-sec .text-field-box {
     margin-bottom: 35px !important;
     height: 60px;
-    line-height: 60px;
+    line-height: 30px;
     padding: 0 30px;
     background: #f4f5f9;
+    resize: none;
     border: 1px solid #ccc;
     border-radius: 30px
 }
