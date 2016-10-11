@@ -38,17 +38,16 @@
             <div class="container">
                 <div class="main-title"><h3>Быстрая связь</h3></div>
                 <div class="form-sec">
-                    <form name="contact" method="post">
-                        <div class="col-md-4"><input type="text" id="contact-name" placeholder="Ваше имя"
-                                                     class="text-field-box"></div>
-                        <div class="col-md-4"><input type="text" id="contact-email" placeholder="Email"
-                                                     class="text-field-box"></div>
-                        <div class="col-md-4"><input type="text" id="contact-number" placeholder="Номер телефона"
-                                                     class="text-field-box"></div>
-                        <div class="col-md-12"><textarea id="contact-msg" class="text-field-box"
-                                                         placeholder="Ваше сообщение"></textarea>
-                            <button name="contact" type="submit" id="contact-submit" class="button-medium">Отправить
-                            </button>
+                    <form name="contact" method="post" action="" id="ajaxform">
+                        <div class="col-md-4">
+                            <input type="text" id="contact-name" placeholder="Ваше имя" class="text-field-box" name="person" val=""></div>
+                        <div class="col-md-4">
+                            <input type="text" id="contact-email" placeholder="Email" class="text-field-box" name="email" val=""></div>
+                        <div class="col-md-4">
+                            <input type="text" id="contact-number" placeholder="Номер телефона" class="text-field-box" name="subject" val=""></div>
+                        <div class="col-md-12">
+                            <textarea id="contact-msg" class="text-field-box" placeholder="Ваше сообщение" name="message" val=""></textarea>
+                            <button name="contact" type="submit" id="contact-submit" class="button-medium">Отправить</button>
                         </div>
                         <div class="error-item">
                             <div id="contact-loading" style="display: none;"> Email Sending...</div>
