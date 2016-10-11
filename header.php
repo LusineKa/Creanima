@@ -37,7 +37,7 @@
                         <li class="active"><a href="index.php">Главное</a></li>
                         <li><a href="about.php">Про нас</a></li>
                         <li><a href="services.php">Услуги</a></li>
-                        <li><a href="portfolio.php">Дизайн из каталога</a> <img class="coming-soon" src="img/coming-soon.png"></li>
+                        <li><a href="catalog.php">Дизайн из каталога</a> <img class="coming-soon" src="img/coming-soon.png"></li>
                         <li><a href="portfolio.php">Наши работы</a></li>
 <!--                        <li><a href="#">Pages</a>-->
 <!--                            <ul>-->
