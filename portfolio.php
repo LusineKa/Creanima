@@ -19,13 +19,13 @@
                 <div class="container">
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-1.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/baroque.jpg">
                                 <div class="mask">
                                     <div class="text-content">
-                                        <a href="img/portfolio-1.jpg" class="ovelay-icon" data-featherlight="image">
+                                        <a href="img/portfolio/lightbox/baroque.jpg" class="ovelay-icon" data-featherlight="image">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
                                         </a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am">
+                                        <a class="ovelay-icon" data-link="http://list.am">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -35,12 +35,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-2.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/lelata.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-2.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/lelata.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -48,12 +48,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-3.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/apaven.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-3.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/apaven.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -61,12 +61,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-4.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/tonoyan.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-4.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/tonoyan.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -74,12 +74,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-5.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/cloud.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-5.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/cloud.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -87,12 +87,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-6.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/troyka.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-6.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/troyka.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -100,12 +100,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-7.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/atb.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-7.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/atb.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -113,12 +113,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-content-box">
-                            <div class="thumbnail-holder"><img alt="" src="img/portfolio-8.jpg">
+                            <div class="thumbnail-holder"><img alt="" src="img/portfolio/winery.jpg">
                                 <div class="mask">
-                                    <div class="text-content"><a href="img/portfolio-8.jpg" class="ovelay-icon"
+                                    <div class="text-content"><a href="img/portfolio/lightbox/winery.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
+                                        <a class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
