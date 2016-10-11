@@ -3649,6 +3649,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         width: 106%;
         margin: 26px -25px 0;
     }
+    .footer-area {
+        float: none;
+        text-align: center;
+    }
+    .footer-area a.button-medium {
+        float: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -4350,5 +4357,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
     .main-banner .flexslider .slides h2 {
         margin: -82px 0 10px;
+    }
+    .coming-soon {
+        left: 60px;
     }
 }
