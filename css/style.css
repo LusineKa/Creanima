@@ -14,6 +14,9 @@
 h1,h2,h3,h4,h5,h6,p,li,a {
     font-family: 'Circe-Regular' !important;
 }
+.header-area .right-side {
+    padding: 0;
+}
 #portfolio {
     padding: 15px;
     z-index: 100000;
