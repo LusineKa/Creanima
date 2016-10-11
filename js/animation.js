@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
                 $('.overlay-mask').css('background-color','rgba(255,200,80,.8)');
                 break;
             case 2:
-                $('.overlay-mask').css('background-color','rgba(106,198,235,.8)');
+                $('.overlay-mask').css('background-color','rgba(174,220,46,0.8)');
                 break;
         };
     };
