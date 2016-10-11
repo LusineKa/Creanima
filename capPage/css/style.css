@@ -110,9 +110,17 @@ body {
 	.row-view{display: table-row;}
 	.cell-view{display: table-cell; vertical-align: middle; height: inherit;}
     /*typography*/
+    b {
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    i {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
     article{position: relative; width: 100%;}
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{margin: 0; padding: 0;}
-    .h1{font-size: 57px; line-height: 39px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 20px;}
+    .h1{font-size: 57px; line-height: 57px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 20px;}
     .h2{font-size: 20px; line-height: 20px; font-weight: normal; text-transform: uppercase; color: #3e2924;}
     .h3{font-size: 45px; line-height: 48px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 20px;}
     .small{font-size: 14px; line-height: 24px;}
