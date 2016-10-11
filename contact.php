@@ -13,31 +13,22 @@
         <div class="container">
             <div class="contact-sec-contents">
                 <div class="col-md-12 row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="features-box">
                             <div class="features-icon"><img src="img/contact-icon-1.png" alt=""></div>
-                            <div class="features-text"><h6>Phone Number</h6>
-                                <p>We are happy to answer any time</p>
-                                <p><b>OFF: 123 - 456 - 7890</b></p>
-                                <p><b>MOB: 098 - 765 - 4321</b></p></div>
+                            <div class="features-text"><h6>Номер телефона</h6>
+                                <p>Мы будем рады ответить на Ваши звонки</p>
+                                <p><b>+7 906 590 44 41</b></p>
                         </div>
+                            </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="features-box">
-                            <div class="features-icon"><img src="img/contact-icon-2.png" alt=""></div>
-                            <div class="features-text"><h6>Office Address</h6>
-                                <p>You can directly visit our office</p>
-                                <p><b>Door No. 123, New york NY</b></p>
-                                <p><b>United State</b></p></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
+
+                    <div class="col-md-6">
                         <div class="features-box">
                             <div class="features-icon"><img src="img/contact-icon-3.png" alt=""></div>
-                            <div class="features-text"><h6>Email Address</h6>
-                                <p>We are happy to answer any questions</p>
+                            <div class="features-text"><h6>Email-адрес</h6>
+                                <p>Мы будем рады ответить на ваши вопросы</p>
                                 <p><b>info@yourdomain.com</b></p>
-                                <p><b>support@yourdomain.com</b></p></div>
                         </div>
                     </div>
                 </div>
@@ -45,18 +36,18 @@
         </div>
         <div class="contact-form-sec">
             <div class="container">
-                <div class="main-title"><h3>Quick Contact</h3></div>
+                <div class="main-title"><h3>Быстрая связь</h3></div>
                 <div class="form-sec">
                     <form name="contact" method="post">
-                        <div class="col-md-4"><input type="text" id="contact-name" placeholder="Your Name"
+                        <div class="col-md-4"><input type="text" id="contact-name" placeholder="Ваше имя"
                                                      class="text-field-box"></div>
-                        <div class="col-md-4"><input type="text" id="contact-email" placeholder="Your Email"
+                        <div class="col-md-4"><input type="text" id="contact-email" placeholder="Email"
                                                      class="text-field-box"></div>
-                        <div class="col-md-4"><input type="text" id="contact-number" placeholder="Your Phone"
+                        <div class="col-md-4"><input type="text" id="contact-number" placeholder="Номер телефона"
                                                      class="text-field-box"></div>
                         <div class="col-md-12"><textarea id="contact-msg" class="text-field-box"
-                                                         placeholder="Your Message"></textarea>
-                            <button name="contact" type="submit" id="contact-submit" class="button-medium">Submit Now
+                                                         placeholder="Ваше сообщение"></textarea>
+                            <button name="contact" type="submit" id="contact-submit" class="button-medium">Отправить
                             </button>
                         </div>
                         <div class="error-item">
