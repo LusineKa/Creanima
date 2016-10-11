@@ -88,11 +88,11 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/portfolio-6.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio/troyka.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
-                                                                             href="img/work-1.jpg"><i aria-hidden="true"
+                                                                             href="img/portfolio/lightbox/troyka.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
                                                     <a class="ovelay-icon" data-link="http://list.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
@@ -104,11 +104,11 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/portfolio-7.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio/atb.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
-                                                                             href="img/work-2.jpg"><i aria-hidden="true"
+                                                                             href="img/portfolio/lightbox/atb.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
                                                     <a class="ovelay-icon" data-link="http://auto.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
@@ -120,11 +120,11 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/portfolio-8.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio/winery.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
-                                                                             href="img/work-3.jpg"><i aria-hidden="true"
+                                                                             href="img/portfolio/lightbox/winery.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
                                                     <a class="ovelay-icon" data-link="http://aravot.am"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
