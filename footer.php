@@ -8,15 +8,16 @@
                         <h5><i class="fa fa-phone"  aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-whatsapp">&nbsp;&nbsp;</i><i class="fa fa-paper-plane"></i> +7 906 590 44 41</h5>
                         <h5><i class="fa fa-envelope-o" aria-hidden="true"></i> creanima.info</h5>
                         <h5><i class="fa fa-skype" aria-hidden="true"></i> creanima.info</h5>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-sec"><a href="contact.php" class="button-medium">Свяжитесь с нами</a></div>
                         <ul class="social-media-sec">
                             <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
                             <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-viber fa-2x"></i></i></a></li>
                         </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="right-sec"><a href="contact.php" class="button-medium">Свяжитесь с нами</a></div>
                     </div>
                 </div>
                 <div class="copyright">
