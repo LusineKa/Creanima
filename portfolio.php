@@ -24,7 +24,7 @@
                                     <div class="text-content"><a href="img/portfolio-1.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                                     <div class="text-content"><a href="img/portfolio-2.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                     <div class="text-content"><a href="img/portfolio-3.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                     <div class="text-content"><a href="img/portfolio-4.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                     <div class="text-content"><a href="img/portfolio-5.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                                     <div class="text-content"><a href="img/portfolio-6.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                     <div class="text-content"><a href="img/portfolio-7.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                                     <div class="text-content"><a href="img/portfolio-8.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@
                                     <div class="text-content"><a href="img/portfolio-9.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     <div class="text-content"><a href="img/portfolio-10.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                     <div class="text-content"><a href="img/portfolio-11.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                     <div class="text-content"><a href="img/portfolio-12.jpg" class="ovelay-icon"
                                                                  data-featherlight="image"><i class="fa fa-search-plus"
                                                                                               aria-hidden="true"></i></a>
-                                        <a href="#" class="ovelay-icon"><i class="fa fa-link"
+                                        <a href="#" class="ovelay-icon" data-link="http://list.am"><i class="fa fa-link"
                                                                            aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
