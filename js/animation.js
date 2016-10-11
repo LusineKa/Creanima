@@ -42,4 +42,8 @@ jQuery(document).ready(function () {
     $('.modal-header button').click(function () {
         $('.modal-body iframe').attr('src',null);
     });
+
+    $('.services-area-items .col-md-4').css({
+        'height': $('.services-area-items .col-md-4').height()
+    });
 });
