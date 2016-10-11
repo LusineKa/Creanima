@@ -34,10 +34,10 @@
             <div class="menu-bar">
                 <nav>
                     <ul class="menu">
-                        <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
+                        <li class="active"><a href="index.php">Главное</a></li>
+                        <li><a href="about.php">Про нас</a></li>
+                        <li><a href="services.php">Услуги</a></li>
+                        <li><a href="portfolio.php">Наши работы</a></li>
 <!--                        <li><a href="#">Pages</a>-->
 <!--                            <ul>-->
 <!--                                <li><a href="blog.php">Blog</a></li>-->
@@ -46,7 +46,7 @@
 <!--                                <li><a href="shortcodes.php">Shortcodes</a></li>-->
 <!--                            </ul>-->
 <!--                        </li>-->
-                        <li><a href="contact.php">contact</a></li>
+                        <li><a href="contact.php">Связь с нами</a></li>
                     </ul>
                 </nav>
             </div>
