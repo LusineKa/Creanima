@@ -4201,6 +4201,17 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 @media (max-width: 425px) {
+    #popup {
+        display: none;
+        left: 50%;
+        position: fixed;
+        top: 50%;
+        z-index: 200000;
+        background: #eeeeee;
+        width: 400px;
+        height: 330px;
+        padding: 10px 20px 20px 20px;
+    }
     h1 {
         font-size: 50px
     }
@@ -4430,6 +4441,14 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         font-size: 38px;
         line-height: 50px;
     }
+    .header-area.navbar-fixed-top {
+        position: absolute;
+        padding: 15px 0;
+        background: none;
+        -moz-transition: all .5s ease 0s;
+        transition: all .5s ease 0s;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 414px) {
@@ -4551,6 +4570,25 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         font-size: 16px;
         line-height: 17px;
     }
+    #popup {
+        display: none;
+        left: 50%;
+        position: fixed;
+        top: 50%;
+        z-index: 200000;
+        background: #eeeeee;
+        width: 350px;
+        height: 330px;
+        padding: 10px 20px 20px 20px;
+    }
+    .header-area.navbar-fixed-top {
+        position: absolute;
+        padding: 15px 0;
+        background: none;
+        -moz-transition: all .5s ease 0s;
+        transition: all .5s ease 0s;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 320px) {
@@ -4578,5 +4616,27 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         right: 0;
         z-index: 1000000;
         display: none;
+    }
+    #popup {
+        display: none;
+        left: 50%;
+        position: fixed;
+        top: 50%;
+        z-index: 200000;
+        background: #eeeeee;
+        width: 300px;
+        height: auto;
+        padding: 10px 20px 20px 20px;
+    }
+    #popup input[type=text] {
+        width: 98%;
+    }
+    .header-area.navbar-fixed-top {
+        position: absolute;
+        padding: 15px 0;
+        background: none;
+        -moz-transition: all .5s ease 0s;
+        transition: all .5s ease 0s;
+        box-shadow: none;
     }
 }
