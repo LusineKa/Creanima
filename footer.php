@@ -36,6 +36,16 @@
         <iframe src="" sandbox></iframe>
     </div>
 </div>
+<div id="popup">
+    <form id="contact_form" role="form" method="post" action="order.php">
+        <h3>Напишите нам</h3>
+        <input type="text" name="name" class="required" placeholder="Как к вам обращаться? *">
+        <input type="text" name="tel"  class="required" placeholder="Телефон *">
+        <input type="hidden" name="send" value="1">
+        <textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
+        <a href="#" class="btn button form_submit">Заказать</a>
+    </form>
+</div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/owl-carousel-settings.js"></script>

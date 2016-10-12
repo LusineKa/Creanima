@@ -13,8 +13,8 @@
                                         <div class="half-div">
                                             <figure><img src="img/banner-img-01.png" alt=""></figure>
                                         </div>
-                                        <div class="half-div"><h2>Вы можете заказать лендинг пейдж за 2500 рублей!</h2> <a href="#"
-                                                                                                             class="button-medium">Заказать</a></div>
+                                        <div class="half-div"><h2>Вы можете заказать лендинг пейдж за 2500 рублей!</h2>
+                                            <a href="#" id="callback" class="button-medium">Заказать</a></div>
                                     </div>
                                 </li>
                                 <li>

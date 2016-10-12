@@ -3334,6 +3334,106 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 }
 
+
+#popup {
+    display: none;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 200000;
+    background:#eeeeee;
+    width:420px;
+    height: 330px;
+    padding:10px 20px 20px 20px;
+}
+#popup_video {
+    display: none;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 2000;
+    background:#eeeeee;
+    width:580px;
+    height: 376px;
+    padding:10px 20px 20px 20px;
+}
+*html #popup, *html #popup_video  {
+    position: absolute;
+}
+#popup h3, #popup_video h3{
+    color:#ab6969;
+    font-size:30px;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align:left;
+    margin-bottom:20px;
+}
+#popup p {
+    padding-bottom:15px;
+    text-align: center;
+}
+#imgcode {
+    float:left;
+}
+#popup input[type=text] {
+    width: 48%;
+    margin: 1%;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+#popup textarea {
+    resize: none;
+    width: 98%;
+    padding: 8px 10px;
+    display: block;
+    margin: 20px 1%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#popup .button {
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #51a94f;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: right;
+    border-radius: 50px;
+    padding: 7px 35px;
+}
+#popup_close, #popup_video_close {
+    display:block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background: url(../img/close_contact_form.png) no-repeat center center;
+    cursor: pointer;
+    z-index: 2103;
+}
+#popup_close:hover , #popup_video_close:hover {
+    opacity:0.7;
+    transform: rotate(90deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+#fade {
+    display: none;
+    background: #2c3e50;
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%;
+    opacity: .60;
+    z-index: 100000;
+    min-width: 100vw;
+}
+*html #fade {
+    position: absolute;
+}
+
+
 @media (max-width: 1200px) {
     .mini-grid-area > div {
         max-width: 320px;
