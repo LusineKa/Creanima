@@ -120,7 +120,7 @@ body {
     }
     article{position: relative; width: 100%;}
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{margin: 0; padding: 0;}
-    .h1{font-size: 57px; line-height: 57px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 20px;}
+    .h1{font-size: 40px; line-height: 40px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 0px;}
     .h2{font-size: 20px; line-height: 20px; font-weight: normal; text-transform: uppercase; color: #3e2924;}
     .h3{font-size: 45px; line-height: 48px; font-weight: 900; text-transform: uppercase; color: #3e2924; margin-bottom: 20px;}
     .small{font-size: 14px; line-height: 24px;}
@@ -1524,3 +1524,148 @@ textarea{resize: none;}
     .welcome-subtitle-description{margin-bottom: 40px;}
 }
 .preview-page-box{position: relative;}
+
+@media (max-width: 768px){
+    .excavator {
+        margin-top: -150px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .wall_wrap {
+        margin-top: 0px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .wall_wrap {
+        position: relative;
+        width: 501px;
+        height: 399px;
+        z-index: 1;
+        left: -127px;
+        top: 30px;
+    }
+    .excavator {
+        margin-top: -126px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .h1 {
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #3e2924;
+        margin-bottom: 0px;
+    }
+    .h2 {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 250px;
+        color: #3e2924;
+    }
+    article {
+        position: relative;
+        width: 100%;
+        top: 90px;
+    }
+}
+
+@media (max-width: 425px){
+    .excavator {
+        margin-top: -150px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .wall_wrap {
+        margin-top: 0px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .wall_wrap {
+        position: relative;
+        width: 501px;
+        height: 399px;
+        z-index: 1;
+        left: -127px;
+        top: 30px;
+    }
+    .excavator {
+        margin-top: -126px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .h1 {
+        font-size: 17px;
+        line-height: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #3e2924;
+        margin-bottom: 0px;
+    }
+    .h2 {
+        font-size: 9px;
+        line-height: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 300px;
+        color: #3e2924;
+    }
+    article {
+        position: relative;
+        width: 100%;
+        top: 40px;
+    }
+}
+
+@media (max-width: 320px){
+article {
+position: relative;
+    width: 100%;
+    top: -14px;
+}
+    .wall_wrap {
+        position: relative;
+        width: 501px;
+        height: 399px;
+        z-index: 1;
+        left: -127px;
+        top: 130px;
+    }
+    .excavator {
+        margin-top: -69px;
+        transform: scale(0.81);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.81);
+        -o-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+    }
+    .chip.second {
+        right: 35px;
+        top: 50px;
+    }
+    .h2 {
+        white-space: pre-wrap;
+        font-size: 13px;
+        width: 284px;
+    }
+}
