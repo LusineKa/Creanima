@@ -4247,6 +4247,10 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         line-height: 17px;
         margin: -30px 0 20px;
     }
+    .main-title h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -4360,5 +4364,14 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
     .coming-soon {
         left: 60px;
+    }
+    .main-title h1 {
+        font-size: 34px;
+        line-height: 53px;
+    }
+    .thumbnail-holder .mask {
+        height: 106%;
+        width: 101%;
+        left: -1%;
     }
 }
