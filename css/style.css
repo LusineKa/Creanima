@@ -412,7 +412,7 @@ body::-webkit-scrollbar-thumb {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    height: 780px;
+    height: 680px;
     position: relative
 }
 
@@ -4104,7 +4104,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     h1 {
         font-size: 50px
     }
-
+    .main-banner .container.absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1000000;
+        display: none;
+    }
     h2 {
         font-size: 34px
     }
@@ -4330,7 +4336,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     .main-banner .overlay-mask .banner-container {
         bottom: -15px
     }
-
+    .main-banner .container.absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1000000;
+        display: none;
+    }
     .inner-banner .overlay-mask {
         padding: 150px 0 0
     }
@@ -4377,6 +4389,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         height: 34px;
         line-height: 34px
     }
+    .main-banner .container.absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1000000;
+        display: none;
+    }
 
     .main-banner .flexslider .slides h2 {
         margin: -50px 0 10px;
@@ -4403,7 +4422,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         height: 34px;
         line-height: 34px
     }
-
+    .main-banner .container.absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1000000;
+        display: none;
+    }
     .main-banner .flexslider .slides h2 {
         margin: -50px 0 10px;
         font-size: 18px;
@@ -4446,5 +4471,12 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         height: 106%;
         width: 101%;
         left: -1%;
+    }
+    .main-banner .container.absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1000000;
+        display: none;
     }
 }
