@@ -26,11 +26,11 @@
 </div>
 <header class="header-area">
     <div class="container">
-        <div class="col-md-4 left-side">
+        <div class="col-md-2 left-side">
             <div class="logo"><a href="index.php"> <img src="img/top-logo.png" alt=""></a></div>
         </div>
         <div class="mob-icon"><i class="fa fa-bars"></i></div>
-        <div class="col-md-8 right-side">
+        <div class="col-md-10 right-side">
             <div class="menu-bar">
                 <nav>
                     <ul class="menu">
