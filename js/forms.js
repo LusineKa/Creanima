@@ -62,7 +62,7 @@ $(document).ready(function () {
 
     $(function () {
         //фкнкция вызова формы обратной связи
-        $('#callback').click(function () {
+        $('[data-order-call]').click(function () {
             //появление окна обратной связи
             $('#popup').fadeIn();
             //добавляем к окну иконку закрытия
