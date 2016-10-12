@@ -507,7 +507,7 @@ body::-webkit-scrollbar-thumb {
 .main-banner .flex-control-nav {
     text-align: left;
     color: transparent;
-    z-index: 2047483647;
+    z-index: 10000;
     padding-left: 40px
 }
 
@@ -3268,6 +3268,71 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     display: block;
 }
 
+.main-banner .container.absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1000000;
+}
+.go-to-bottom {
+
+    cursor: pointer;
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.go-to-bottom::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: goBottom 2s infinite;
+    animation: goBottom 2s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes goBottom {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes goBottom {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @media (max-width: 1200px) {
     .mini-grid-area > div {

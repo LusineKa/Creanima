@@ -46,4 +46,12 @@ jQuery(document).ready(function () {
     $('.services-area-items .col-md-4').css({
         'height': $('.services-area-items .col-md-4').height()
     });
+
+
+    function scrollToAnchor(aid){
+        var aTag = $("a[name='"+ aid +"']");
+        $('html,body').animate({scrollTop: aTag.offset()},'slow');
+    }
+
+    scrollToAnchor('info');
 });
