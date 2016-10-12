@@ -28,29 +28,9 @@ $(document).ready(function () {
                     i += 1 ;
                 }
             });
-            console.log(i);
             if(i === form.find('input').length){
                 return true;
             }
-
-            // if (telInput.length < 5) {
-            //     $('#contact_form input[name=tel]').css('border', '1px solid red');
-            //
-            //     if (nameInput.length < 2) {
-            //         $('#contact_form input[name=name]').css('border', '1px solid red');
-            //         return false;
-            //     }
-            //     else {
-            //         $('#contact_form input[name=name]').css('border', 'none');
-            //     }
-            //
-            //     return false;
-            // }
-            // else {
-            //     $('#contact_form input[name=tel]').css('border', 'none');
-            // }
-            //
-
         }
 
         //при нажатии на кнопку button нужной формы запускаем функцию обработки данных
@@ -65,7 +45,6 @@ $(document).ready(function () {
                 $.post(order_url, {
                     name: $('#contact_form input[name=name]').val(),
                     tel: $('#contact_form input[name=tel]').val(),
-                    email: $('#contact_form input[name=email]').val(),
                     message: $('#contact_form textarea[name=message]').val(),
                     send: "1"
                 }, function (data) {
