@@ -56,4 +56,8 @@ jQuery(document).ready(function () {
         $('html,body').animate({scrollTop: aTag.offset()}, 'slow');
     }
     scrollToAnchor('info');
+
+    $('.tel-header').hover( function () {
+        $(this).find('.fa-phone').toggleClass('swing animated');
+    })
 });

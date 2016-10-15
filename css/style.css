@@ -237,7 +237,6 @@ body::-webkit-scrollbar-thumb {
 .header-area {
     min-width: 100vw;
     width: 100%;
-    height: auto;
     padding: 40px 0;
     -moz-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
@@ -246,7 +245,8 @@ body::-webkit-scrollbar-thumb {
     left: 0;
     right: 0;
     z-index: 99999;
-    box-shadow: 0 -6px 10px transparent
+    box-shadow: 0 -6px 10px transparent;
+    height: 60px;
 }
 
 .header-area .logo img, .header-area.navbar-fixed-top {
@@ -266,7 +266,8 @@ body::-webkit-scrollbar-thumb {
 .header-area .logo {
     width: auto;
     height: auto;
-    display: inline-block
+    display: inline-block;
+    margin-top: -7px;
 }
 
 .header-area .logo img {
@@ -281,15 +282,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-area.navbar-fixed-top .logo img {
-    max-width: 75%;
-    -moz-transition: all .5s ease 0s;
-    transition: all .5s ease 0s
-}
+     max-width: 40%;
+     -moz-transition: all .5s ease 0s;
+     transition: all .5s ease 0s
+ }
+.header-area.navbar-fixed-top .tel-header {
+    cursor: pointer;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 11px;
+ }
 
 .menu {
     width: 100%;
     height: auto;
-    margin: 8px 0 0;
+    margin: 0;
     padding: 0
 }
 
@@ -412,7 +420,7 @@ body::-webkit-scrollbar-thumb {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    height: 680px;
+    height: 90vh;
     position: relative
 }
 
@@ -704,7 +712,7 @@ ol li a:hover {
     width: 100%;
     height: auto;
     background: url(../img/portfolio-left-bg.png) left bottom no-repeat, url(../img/portfolio-right-bg.png) right top no-repeat;
-    padding: 150px 0;
+    padding: 50px 0;
     background-size: 35%, 15%
 }
 
@@ -3256,8 +3264,9 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .coming-soon {
     position: absolute;
-    top: -23px;
-    left: 102px;
+    top: -15px;
+    left: 111px;
+    transform: scale(0.7);
 }
 
 #CapPage {
@@ -3441,8 +3450,11 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     background-color: #fbb712;
     float: right;
     border-radius: 50px;
+    transition: all .5s;
 }
-
+#info {
+    padding-bottom: 0;
+}
 
 /* palden */
 
@@ -3617,8 +3629,7 @@ display: flex;
         height: 700px
     }
     .menu {
-        width: 106%;
-        margin: 8px -25px 0;
+        margin: 0;
     }
 
     .content-area-with-bg, .portfolio-bg-area, .special-features-area {
@@ -3707,6 +3718,20 @@ display: flex;
 @media (max-width: 991px) {
     .about-us-area, .inner-banner h2, .main-title h1, .main-title h2, .menu {
         text-align: center
+    }
+
+    .header-area .logo {
+        margin: 0 0 10px 0;
+    }
+
+    .header-area.navbar-fixed-top {
+        position: absolute;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .header-area.navbar-fixed-top .logo img{
+        max-width: 100%;
     }
 
     .about-area-sec .main-title, .our-thoughts-sec .main-title {
@@ -4019,6 +4044,10 @@ display: flex;
 }
 
 @media (max-width: 640px) {
+    .tel-header,.container.absolute {
+        display: none;
+    }
+
     .header-area .logo img {
         max-width: 90%
     }
@@ -4789,4 +4818,64 @@ display: flex;
         transition: all .5s ease 0s;
         box-shadow: none;
     }
+}
+
+
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0,0,1,15deg);
+        transform: rotate3d(0,0,1,15deg)
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0,0,1,-10deg);
+        transform: rotate3d(0,0,1,-10deg)
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0,0,1,5deg);
+        transform: rotate3d(0,0,1,5deg)
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0,0,1,-5deg);
+        transform: rotate3d(0,0,1,-5deg)
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0,0,1,0deg);
+        transform: rotate3d(0,0,1,0deg)
+    }
+}
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0,0,1,15deg);
+        transform: rotate3d(0,0,1,15deg)
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0,0,1,-10deg);
+        transform: rotate3d(0,0,1,-10deg)
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0,0,1,5deg);
+        transform: rotate3d(0,0,1,5deg)
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0,0,1,-5deg);
+        transform: rotate3d(0,0,1,-5deg)
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0,0,1,0deg);
+        transform: rotate3d(0,0,1,0deg)
+    }
+}
+.swing {
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing;
 }
