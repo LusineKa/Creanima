@@ -41,7 +41,7 @@
                         $page_name = $name_array[$count-1];
                         ?>
                         <li class="<?php echo ($page_name=='index.php')?'active':'';?>"><a href="index.php">Главное</a></li>
-                        <li class="<?php echo ($page_name=='about.php')?'active':'';?>"><a href="about.php">Про нас</a></li>
+                        <li class="<?php echo ($page_name=='about.php')?'active':'';?>"><a href="about.php">О нас</a></li>
                         <li class="<?php echo ($page_name=='catalog.php')?'active':'';?>"><a href="catalog.php">Дизайн из каталога</a> <img class="coming-soon" src="img/coming-soon.png"></li>
                         <li class="<?php echo ($page_name=='portfolio.php')?'active':'';?>"><a href="portfolio.php">Наши работы</a></li>
                         <li class="<?php echo ($page_name=='contact.php')?'active':'';?>"><a href="contact.php">Связь с нами</a></li>
