@@ -287,7 +287,6 @@ body::-webkit-scrollbar-thumb {
      transition: all .5s ease 0s
  }
 .header-area.navbar-fixed-top .tel-header {
-    cursor: pointer;
     border-radius: 15px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -420,7 +419,7 @@ body::-webkit-scrollbar-thumb {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    height: 90vh;
+    height: 680px;
     position: relative
 }
 
@@ -3451,6 +3450,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     float: right;
     border-radius: 50px;
     transition: all .5s;
+    cursor: pointer;
 }
 #info {
     padding-bottom: 0;
