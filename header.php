@@ -48,6 +48,9 @@
                         <li class="<?php echo ($page_name=='contact.php')?'active':'';?>"><a href="contact.php">Связь с нами</a></li>
                     </ul>
                 </nav>
+                <div class="tel-header">
+                    <i class="fa fa-phone" aria-hidden="true"></i>  8 (906) 590 44 41
+                </div>
             </div>
         </div>
     </div>

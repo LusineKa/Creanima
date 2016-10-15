@@ -3433,6 +3433,15 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     position: absolute;
 }
 
+.tel-header {
+    margin-top: 15px;
+    padding:5px 10px ;
+    color: white;
+    font-size: 20px;
+    background-color: #fbb712;
+    float: right;
+    border-radius: 50px;
+}
 
 
 /* palden */
