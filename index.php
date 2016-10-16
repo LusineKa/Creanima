@@ -266,7 +266,7 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/portfolio/troyka.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio/inomma.png" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
