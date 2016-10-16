@@ -1,0 +1,147 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Baroque Website</title>
+        <!-- OG metas -->
+        <meta property="og:title" content="Baroque Furniture" />
+        <meta property="og:type" content="Baroque Furniture" />
+        <meta property="og:url" content="http://baroqueinfo.esy.es/" />
+        <meta property="og:image" content="http://baroqueinfo.esy.es/share.jpg" />
+        <!-- Default metas -->
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="Ararat Tonoyan">
+        <meta name="description" content="Baroque style furniture, Luxury interior design Made in Italy and handmade classic furniture production since 1818">
+        <meta name="keywords" content="Baroque , furniture , style ,italy ,luxury, Ararat Tonoyan">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/css/images/favico.png" type="image/x-icon">
+    </head>
+    <body>
+         <!-- Welcome page -->
+        <div id="page-wrapper">
+            <div class="overlay">
+                <!-- Video -->
+                <video id="my-video" class="video" controls loop autoplay muted>
+                    <source id="video-src" src="assets/video/bg_video.mp4" type="video/mp4">
+                </video>
+                <!-- Video Baner / Img -->
+                <div id="non-video"></div>
+                <!-- Borders Drowing onLoading -->
+                <div class="border borderh" id="topbar"></div>
+                <div class="border borderv" id="rightbar"></div>
+                <div class="border borderh" id="bottombar"></div>
+                <div class="border borderv" id="leftbar"></div>
+                <!-- Menu Button -->
+                <nav>
+                    <a href="#menu"></a>
+                </nav>
+                <!-- Center Content -->
+                <div id="content">
+                    <img src="assets/css/images/logo.png" alt="" />
+                    <h1 class="welcome">
+                        СЕТЬ МЕБЕЛЬНЫХ
+                    </h1>
+                    <h2>
+                        САЛОНОВ
+                    </h2>
+                    <h1 id="baroque_text">
+                        Baroque
+                    </h1>
+                    <a href="collection.html"><button id="collection" class="btn btn-primary">2016 - 2017 Collection</button></a>
+                </div>
+                <!-- Menu Preview -->
+                <nav id="menu">
+                    <div class="inner">
+                        <h2>МЕНЮ</h2>
+                        <ul class="links">
+                            <li>
+                                <a href="index.html">главная</a>
+                            </li>
+                            <li>
+                                <a href="collection.html">новая коллекция</a>
+                            </li>
+                            <li>
+                                <a href="history.html">ИСТОРИЯ</a>
+                            </li>
+                            <li>
+                                <a href="http://baroquefurniture.esy.es">магазин <i style="margin: 6px;" class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <a href="#" class="close">Close</a>
+                    </div>
+                </nav>
+            </div>
+         </div>
+            <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script>
+                $("#page-wrapper").css("visibility", "hidden");
+                $(document).ready(function () {
+                        $("#page-wrapper").css("visibility", "visible");
+                        var pos_w = $(window).width() * 0.94;
+                        var pos_h = $(window).height() * 0.94;
+
+                    //Hide borders in start
+                        $("#topbar,#rightbar,#bottombar,#leftbar,#collection,#my-video").hide();
+
+                    //Hide content in start
+                        $(".welcome,#content h2,#baroque_text").css("visibility", "hidden");
+                        $("#content img").css("visibility","hidden");
+
+                   //Set borders fading Time ms
+                        var time_fading = 400;
+
+                   //Start Animation
+                        $("#topbar").show();
+                        $("#topbar").animate({ width: pos_w }, time_fading, function () {
+                            $("#rightbar").show();
+                            $("#rightbar").animate({ height: pos_h }, time_fading, function () { });
+                        });
+                        $("#bottombar").show();
+                        $("#bottombar").animate({ width: pos_w }, time_fading, function () {
+                        $("#leftbar").show();
+                        $("#leftbar").animate({ height: pos_h }, time_fading, function () {
+                            if ($(window).width() < 768) {
+                                $("#my-video").css("display", "none");
+                                $("#non-video").fadeIn(3000);
+                            }
+                            else {
+                                $("#my-video").fadeIn(3000);
+                            }
+                            $(".welcome,#content h2,#baroque_text,#collection").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 });
+                            $("#content img").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 });
+                        });
+                    });
+
+                   //Hide all after click href:collection
+                        $("#collection").click(function () {
+                        $('#my-video').hide(time_fading);
+                        $('#content').hide(time_fading);
+                    });
+               });
+                $(window).resize(function () {
+                //Change borders size after resize
+                pos_w = $(window).width() * 0.94;
+                pos_h = $(window).height() * 0.94;
+                $("#topbar").css({ width: pos_w });
+                $("#bottombar").css({ width: pos_w });
+                $("#rightbar").css({ height: pos_h });
+                $("#leftbar").css({ height: pos_h });
+          });
+            </script>
+            <script src="assets/js/menu.js"></script>
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-73881780-3', 'auto');
+              ga('send', 'pageview');
+            </script>
+</body>
+</html>

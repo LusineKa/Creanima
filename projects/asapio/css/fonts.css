@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'SFUIDisplay-Regular';
+	src: url('fonts/SFUIDisplay-Regular.ttf');
+	src: local('вє'), url('fonts/SFUIDisplay-Regular.woff') format('woff'), url('fonts/SFUIDisplay-Regular.ttf') format('truetype'), url('fonts/SFUIDisplay-Regular.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
