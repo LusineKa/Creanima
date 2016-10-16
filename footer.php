@@ -33,7 +33,7 @@
         <button type="button" class="close" data-dismiss="modal"></button>
     </div>
     <div class="modal-body">
-        <iframe src="" sandbox></iframe>
+        <iframe src="" ></iframe>
     </div>
 </div>
 <div id="popup">

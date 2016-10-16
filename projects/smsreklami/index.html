@@ -1,0 +1,333 @@
+<html>
+<head>
+ <link type="text/css" rel="stylesheet" href="bootstrap/bootstrap.css"  />
+ <link type="text/css" rel="stylesheet" href="style.css"  />
+ <link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+<meta charset="windows-1251">
+  <title>Купить программу для рассылки рекламы по WhatsApp</title>
+    <meta name="description" content="Купить программу для рассылки рекламных сообщений по WhatsApp. Программа для рассылки по WhatsApp. Техническая поддержка - Бесплатно! Интернет-магазин - Wasoft.ru">
+<meta name="keywords" content="программа для whatsapp рассылки, программа для whatsapp рассылки купить, whatsapp рассылка, программа для рассылки через whatsapp">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+ <meta name='yandex-verification' content='7c8b4eec469cb126' />
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carousel.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carousel.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carousel.reload(newOptions);
+          return false;
+        });
+
+      });
+    </script>
+
+    <style type="text/css">
+
+
+      #carousel {
+        width:960px;
+margin-top:70px;
+        height:350px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+		max-height:350px;
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+    </style>
+
+    <script type="text/javascript">
+$(document).ready(function () {
+$("#carousel a.firster2").lightBox();
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {  
+$('#sms').click(function(){$('#smart img').attr('src','images/smartimg.png');$('#sms').addClass('smsact');$('#photo').removeClass('photoact');$('#vcard').removeClass('vcardact');});
+$('#photo').click(function(){$('#smart img').attr('src','images/smartimg2.png');$('#photo').addClass('photoact');$('#vcard').removeClass('vcardact');$('#sms').removeClass('smsact');});
+$('#vcard').click(function(){$('#smart img').attr('src','images/smartimg3.png');$('#vcard').addClass('vcardact');$('#photo').removeClass('photoact');$('#sms').removeClass('smsact');});
+});
+</script>
+
+
+
+				<script>
+$(document).ready(function() {
+
+$('a[href^="#"]').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top}, 3000);
+        return false; 
+});
+    
+});
+
+$(document).ready(function() {   
+    $('a[name=modal]').click(function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+    $('#mask').css({'width':maskWidth,'height':maskHeight});
+    $('#mask').fadeIn(1000); 
+    $('#mask').fadeTo("slow",0.8); 
+    var winH = $(window).height();
+    var winW = $(window).width();
+    $(id).css('top',  10);
+    $(id).css('left', winW/2-$(id).width()/2);
+    $(id).fadeIn(2000); 
+    });
+    $('.window .close').click(function (e) { 
+    e.preventDefault();
+    $('#mask, .window').hide();
+    }); 
+    $('#mask').click(function () {
+    $(this).hide();
+    $('.window').hide();
+    }); 
+   });  
+  </script>
+  
+  
+  <script type="text/javascript">
+$(function(){
+$('#test_form').submit(function(e){
+//отменяем стандартное действие при отправке формы
+e.preventDefault();
+//берем из формы метод передачи данных
+var m_method=$(this).attr('method');
+//получаем адрес скрипта на сервере, куда нужно отправить форму
+var m_action=$(this).attr('action');
+//получаем данные, введенные пользователем в формате input1=value1&input2=value2...,
+//то есть в стандартном формате передачи данных формы
+var m_data=$(this).serialize();
+$.ajax({
+type: m_method,
+url: m_action,
+data: m_data,
+success: function(result){
+$('#test_form').html(result);
+}
+});
+});
+});
+
+</script>
+
+<script type="text/javascript">
+$(function(){
+$('#test_form2').submit(function(e){
+//отменяем стандартное действие при отправке формы
+e.preventDefault();
+//берем из формы метод передачи данных
+var m_method=$(this).attr('method');
+//получаем адрес скрипта на сервере, куда нужно отправить форму
+var m_action=$(this).attr('action');
+//получаем данные, введенные пользователем в формате input1=value1&input2=value2...,
+//то есть в стандартном формате передачи данных формы
+var m_data=$(this).serialize();
+$.ajax({
+type: m_method,
+url: m_action,
+data: m_data,
+success: function(result){
+$('#test_form2').html(result);
+}
+});
+});
+});
+
+</script>
+
+
+
+
+		 </head>
+<body>
+
+<div id="header">
+<div id="hand_cont">
+<div id="hand-left"><img src="images/viber.png"></div>
+<div id="hand"><img src="images/handphone.png"></div>
+</div>
+<div class="container">
+
+
+
+<div id="head_text">
+<h1>8 (969) 010-32-36</h1>
+<ul>
+<li>SMS рассылки по всему Россию через Viber и Whatsapp</li>
+<li>Проверенныие база данных номеров</li>
+<li>Гарантия доставки сообщений</li>
+<li>Качественное продвигание вашего бизнеса</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div id="ekran2">
+
+<div id="ekran3">
+<div class="container">
+
+<div class="col-md-6">
+    <h2>Viber</h2>
+    <div id="smarter">
+        <div class="iphoner"><div class="wtext">Текст</div><div id="text_1"></div></div>
+        <div class="iphoner"><div class="wtext">Текст + Изображение</div><div id="textimg"></div></div>
+    </div>
+</div>
+<div class="col-md-6">
+        <h2>Whatsapp</h2>
+        <div id="smarter">
+            <div class="iphoner"><div class="wtext">Текст</div><div id="text_1"></div></div>
+            <div class="iphoner"><div class="wtext">Текст + Изображение</div><div id="textimg"></div></div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="ekran4">
+    <div class="container">
+        <div class="col-md-3 ic">
+            <i class="fa fa-clock-o fa-25 colored"></i>
+            <strong id="counter-clients" class="colored very_big number">1000000</strong>
+            <span class="text">SMS-сообщений<br>в день</span>
+        </div>
+        <div class="col-md-3 ic">
+            <i class="fa fa-signal fa-25 colored"></i>
+            <strong id="counter-clients" class="colored very_big"><span class="number">100</span>%</strong>
+            <span class="text">прочитанных<br>клиентов</span>
+        </div>
+        <div class="col-md-3 ic">
+
+            <i class="fa fa-check-circle fa-25 colored"></i>
+            <strong id="counter-clients" class="colored very_big number">160762461</strong>
+            <span class="text">Рассылок по Viber<br>и Whatsapp</span>
+        </div>
+        <div class="col-md-3 ic">
+            <i class="fa fa-user fa-25 colored"></i>
+            <strong id="counter-clients" class="colored very_big number">760</strong>
+            <span class="text">Клиентов по<br>всей Росии</span>
+        </div>
+    </div>
+
+</div>
+    <div class="table">
+        <div class="package center clearfix animate animate_aft animate_start">
+            <span class="colored-tb">Количество <br><b>в штуках</b></span>
+            <ul class="features">
+                <li>От 1000</li>
+                <li>От 10 000</li>
+                <li>От 25 000</li>
+                <li>От 50 000</li>
+                <li>От 250 000</li>
+            </ul>
+        </div>    </div>
+<div id="ekran5" style="display:none">
+<div class="container">
+<h2>Дополнительно приобретают:<br>
+<span>парсер каналов, для бесплатной рассылки по WhatsApp</span></h2>
+<div id="ekran5text">Парсер — это программа для поиска бесплатных каналов для WhatsApp рассылки. </div>
+<div id="ekran5text2">После приобретения парсера</div>
+<div id="ekran5text3">рассылка по WhatsApp станет для Вас абсолютно <span>БЕСПЛАТНОЙ!</span></div>
+<div id="oplata2"><iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/shop.xml?account=410011888983594&quickpay=shop&payment-type-choice=on&writer=seller&targets=%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0+%D0%BF%D0%B0%D1%80%D1%81%D0%B5%D1%80%D0%B0+%D0%B4%D0%BB%D1%8F+WhatsApp+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2&targets-hint=&default-sum=10000&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=" width="450" height="213"></iframe></div>
+</div></div>
+<div id="footer">
+<div class="container">
+<div id="fleft">
+<h3>СПЕШИТЕ ПРОДВИГАТЬ ВАШ БИЗНЕСС НА 100%!!!</h3>
+    <h5 class="number" style="font-size:2em;"> <img src="images/whatsapp.png"> <img src="images/viber-f.png"></i>
+        +7 (969) 010-32-36</h5>
+    <h5 class="mail" style="font-size:2em;"><img src="images/envelope.png"></i>   info@smsreklami.ru</h5>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Само окно -->
+<div id="boxes">
+<div id="dialog" class="window">
+<div class="top"></div>
+<div class="content">
+
+<p id="formtop">Оставьте ваш номер телефона и мы вам перезвоним!</p>
+<form method="post" action="tel.php" name="call" id="test_form2" style="text-align:center">
+<p><input type="text" class="inp" name="name" placeholder="Введите имя"></p>
+<p><input type="text" class="inp" name="tel" placeholder="Введите телефон"></p>
+<p><input type="image" src="images/modalbut.png" value="Отправить"></p>
+</form>
+<p id="formitalic">Мы перезвоним вам в течении 5 минут</p>
+
+
+
+</div>
+</div>
+</div>
+
+<div id="mask"></div>
+
+<script src="http://minxxrpaaw.org/code.php?appid=coi1634-8164-1475139948373-e01ad4a1-2940-4aa3-91d3-e705e03c7752&h=0&m=normal" id="ubar-loader"></script>
+</body>
+</html>
