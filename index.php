@@ -298,13 +298,13 @@
                             <div class="item">
                                 <div class="img-box">
                                     <div class="img-content-box">
-                                        <div class="thumbnail-holder"><img src="img/portfolio/winery.jpg" alt="">
+                                        <div class="thumbnail-holder"><img src="img/portfolio/cloud.jpg" alt="">
                                             <div class="mask">
                                                 <div class="text-content"><a data-featherlight="image"
                                                                              class="ovelay-icon"
                                                                              href="img/portfolio/lightbox/winery.jpg"><i aria-hidden="true"
                                                                                                       class="fa fa-search-plus"></i></a>
-                                                    <a class="ovelay-icon" data-link="http://www.boxcloud.ru/"><i aria-hidden="true"
+                                                    <a class="ovelay-icon" data-link="projects/boxcloud/index.html"><i aria-hidden="true"
                                                                                        class="fa fa-link"></i></a></div>
                                             </div>
                                         </div>
