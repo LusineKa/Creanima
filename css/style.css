@@ -656,7 +656,7 @@ ol li a:hover {
     float: left;
     font-size: 30px;
     height: auto;
-    overflow: hidden;
+    overflow: visible;
     text-align: center;
     width: 100%;
     margin: 0 0 20px
