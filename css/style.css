@@ -3558,12 +3558,17 @@ display: flex;
     font-size: 0.15em;
     vertical-align: top;
     color: rgba(0,0,0,0.4);
+    padding-left: 0.5em;
 }
+.pricing--palden .pricing__currency .fa {
+    vertical-align: top;
+    font-size: 22px;
+}
+
 .pricing--palden .pricing__period {
     font-size: 0.15em;
-    padding: 0 0 0 0.5em;
+    padding: 0 0.5em 0 0 ;
     color: rgba(0,0,0,0.4);
-    font-style: italic;
 }
 .pricing--palden .pricing__sentence {
     font-weight: bold;
