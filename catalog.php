@@ -3,6 +3,9 @@
     body {
         overflow: hidden;
     }
+    .tel-header {
+        background-color: #51a94f;
+    }
     footer {
         display: none;
     }
