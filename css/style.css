@@ -685,7 +685,8 @@ ol li a:hover {
 }
 
 .home-feature-content .features-box {
-    text-align: left
+    text-align: left;
+    padding-top: 27px;
 }
 
 .home-feature-content .features-box:last-child {
