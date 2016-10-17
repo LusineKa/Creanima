@@ -61,24 +61,25 @@
                 <div class="col-md-6">
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-1.png" alt=""></div>
-                        <div class="features-text"><h5>Landing Page</h5>
-                            <p>Посадочная страница разрабатывается как основной или дополнительный сайт компании.
-                                Лендинги отлично подходят для проведения рекламной кампании на конкретный товар или
-                                услугу с уникальной . </p></div>
+                        <div class="features-text"><h5>Landing page под ключ</h5>
+                            <p>Индивидуальный landing page
+                                для вашего бизнеса за 5 дней
+                                Гарантируем стабильный поток клиентов благодаря нашему опыту. </p></div>
                     </div>
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-2.png" alt=""></div>
-                        <div class="features-text"><h5>Статичный корпоративный сайт</h5>
-                            <p>Готовые сайты с проработанной структурой под различные виды деятельности, требуют
-                                минимум времени и затрат для запуска сайта. Выберите себе готовый вариант сайта по
-                                одной из следующих тематик.</p></div>
+                        <div class="features-text"><h5>Верстка сайта из PSD </h5>
+                            <p>Верстка современных интерфейсов с полным погружением в задачу клиента.
+                                Ни один пиксель не пострадает! Хотите заказать качественную адаптивную верстку? Это к нам.
+                                Мы также работаем outsource
+                            </p></div>
                     </div>
                     <div class="features-box">
                         <div class="features-icon"><img src="img/home-feature-icon-3.png" alt=""></div>
-                        <div class="features-text"><h5>Сайт Визитка</h5>
-                            <p>Визитка - самый недорогой вид одностраничного сайта. Подходит, если Вам нужно заявить
-                                о своей компании, описать всего один товар или услугу и запустить контекстную
-                                рекламу.</p></div>
+                        <div class="features-text"><h5>Дизайн из каталога</h5>
+                            <p>Создайте сайт с одним из 10 000 уникальных дизайнов в нашем каталоге. Мы внесем в оформление: Ваш логотип,
+                                фирменные цвета, телефон и адрес и запустим Ваш сайт с этим дизайном. После этого дизайн будет снят с продажи
+                                (повторно не продается другим покупателям).</p></div>
                     </div>
                 </div>
             </div>
@@ -94,109 +95,72 @@
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-1.png"></div>
                             <div class="features-text"><h5>Заказать Логотип</h5>
-                                <p>МЫ РАБОТАЕМ С МАЛЫМ И СРЕДНИМ БИЗНЕСОМ,
-                                    потребности наших клиентов делятся на две соответствующие категории, поэтому мы
-                                    разработали два разных подхода.</p></div>
+                                <p>Разработка логотипа - это первый и важный шаг на пути к
+                                    сильному бренду. Специалисты Creanima помогут Вам в определении целей, постановке и решении задач по созданию нужного
+                                    образа Вашей компании</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-2.png"></div>
                             <div class="features-text"><h5>Графический дизайн</h5>
-                                <p>Немалый опыт работы в рекламной среде, использование новейших
-                                    программных разработок позволяют решение вопроса, создавая уникальный дизайн
-                                    продукции для любого заказа.</p></div>
+                                <p>Графический дизайн представляет собой художественную деятельность по созданию визуальной эффективной среды.
+                                    Нередко такую деятельность сравнивают с искусством.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-3.png"></div>
-                            <div class="features-text"><h5>Заказать иллюстрацию</h5>
-                                <p>Заказать иллюстрацию здесь даже проще, чем купить наушники в интернет-магазине.
-                                    Адекватные цены, скорость исполнения, а главное, 100% гарантия возврата
-                                    средств!</p></div>
+                            <div class="features-text"><h5>Кроссбраузерность сайта</h5>
+                                <p>Кроссбраузерная верстка – это работа над шаблоном сайта, чтобы он одинаково отображался во всех браузерах.
+                                    Существуют определенные стандарты верстки, но почему-то некоторые браузеры «отстают» от них или не хотят ими руководствоваться.
+                                </p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-4.png"></div>
                             <div class="features-text"><h5>Адаптивный дизайн</h5>
-                                <p>Заказать дизайн для сайта у профессионалов —
-                                    первый шаг к повышению у продаж .</p></div>
+                                <p>стоимость зависит от количества выбранных опорных разрешений и сложности первоначального макета.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-5.png"></div>
                             <div class="features-text"><h5>SEO продвижение</h5>
-                                <p>Если, на следующий месяц, после истечения срока продвижения,
-                                    в ТОП-10 вышло менее 50% фраз.литературная площадка русского мира.</p></div>
+                                <p>Мы сравниваем SEO с занятиями в спортивном зале. Нужно долго и упорно заниматься,
+                                    чтобы получить результат. Но он будет впечатляющим. Все конкуренты обзавидуются . Практикуем.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-6.png"></div>
-                            <div class="features-text"><h5>Создание фото сайта</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
+                            <div class="features-text"><h5>Оптимизация скорости загрузки</h5>
+                                <p>Вы получаете более высокую конверсию сайта! Более высокие позиции в поисковых системах! Более лояльное отношение посетителей!</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-7.png"></div>
-                            <div class="features-text"><h5>Email-маркетинг</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
+                            <div class="features-text"><h5>Техподдержка 30 дней</h5>
+                                <p>Комплексаная услуга, направленная на обеспечение работоспособности вашего сайта.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-8.png"></div>
-                            <div class="features-text"><h5>Продвижение сайтов</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="features-box">
-                            <div class="features-icon"><img alt="" src="img/feature-icon-9.png"></div>
-                            <div class="features-text"><h5>Бизнес-сайт</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="features-box">
-                            <div class="features-icon"><img alt="" src="img/feature-icon-10.png"></div>
-                            <div class="features-text"><h5>Мобильные приложения </h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
+                            <div class="features-text"><h5>Хостинг и домен для сайта</h5>
+                                <p>Выгодные условия, отсутствие скрытых платежей,Защита сайтов от взлома.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="features-box">
                             <div class="features-icon"><img alt="" src="img/feature-icon-11.png"></div>
                             <div class="features-text"><h5>Контент сайта</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
+                                <p>Написание статей, оптимизация и наполнение нового сайта
+                                    Вы предоставляете основные тезисы – мы пишем статьи, проверяем и размещаем.</p></div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="features-box">
-                            <div class="features-icon"><img alt="" src="img/feature-icon-12.png"></div>
-                            <div class="features-text"><h5>Блог</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque
-                                    laudantium, totam rem aperiam.</p></div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <section class="pricing-section bg-12">
