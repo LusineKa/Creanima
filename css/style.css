@@ -615,6 +615,9 @@ ol li a:hover {
     padding: 150px 0;
     background-size: 35%, 25%
 }
+.special-features-area .home-feature-content .row {
+    padding-bottom: 100px;
+}
 
 .features-box .features-text h5, .features-box .features-text h6 {
     color: #424c5c;
@@ -3097,7 +3100,6 @@ h4 label {
 
 .footer-area {
     width: 100%;
-    height: 400px;
     float: left;
     text-align: left;
     background-size: cover !important;
@@ -3111,7 +3113,7 @@ h4 label {
     position: relative;
     top: 0;
     left: 0;
-    padding: 40px 0 0 0
+    padding: 40px 0
 }
 
 .footer-content-area {
@@ -3120,16 +3122,12 @@ h4 label {
     float: left
 }
 
-.footer-content-area .right-sec {
-    padding-top: 100px
-}
-
 .footer-area .overlay a:hover {
     color: #fff
 }
 
 .footer-content-area h5 {
-    color: #898a9c;
+    color: #fff;
     font-weight: 400;
     margin-bottom: 10px
 }
@@ -3155,7 +3153,6 @@ h4 label {
 .social-media-sec {
     width: 94%;
     float: right;
-    display: block;
     margin: 58px 0 0;
     padding: 0;
     display: flex;
@@ -3181,11 +3178,11 @@ h4 label {
     float: left;
     padding: 2px 0 0;
     height: auto;
-    margin-top: 40px
+    margin-top: 10px
 }
 
 .copyright p {
-    color: #898a9c
+    color: #fff
 }
 
 .copyright p span {
