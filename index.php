@@ -104,6 +104,15 @@
                     <div class="container">
                         <div class="col-md-4">
                             <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/feature-icon-2.png"></div>
+                                <div class="features-text"><h5>Графический дизайн</h5>
+                                    <p>Графический дизайн представляет собой художественную деятельность по созданию
+                                        визуальной эффективной среды.
+                                        Нередко такую деятельность сравнивают с искусством.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/feature-icon-1.png"></div>
                                 <div class="features-text"><h5>Заказать Логотип</h5>
                                     <p>Разработка логотипа - это первый и важный шаг на пути к
@@ -114,11 +123,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="features-box">
-                                <div class="features-icon"><img alt="" src="img/feature-icon-2.png"></div>
-                                <div class="features-text"><h5>Графический дизайн</h5>
-                                    <p>Графический дизайн представляет собой художественную деятельность по созданию
-                                        визуальной эффективной среды.
-                                        Нередко такую деятельность сравнивают с искусством.</p></div>
+                                <div class="features-icon"><img alt="" src="img/presentation.png"></div>
+                                <div class="features-text"><h5>Анализ рынка и конкурентов</h5>
+                                    <p>Анализ Рынка/конкурентов одна из важнейших деталей при создании посадочной страницы, мы должны чётко понимать уровень рынка и его образованность.</p></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -132,12 +139,52 @@
                                     </p></div>
                             </div>
                         </div>
+
                         <div class="col-md-4">
                             <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/feature-icon-4.png"></div>
                                 <div class="features-text"><h5>Адаптивный дизайн</h5>
                                     <p>стоимость зависит от количества выбранных опорных разрешений и сложности
                                         первоначального макета.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/settings.png"></div>
+                                <div class="features-text"><h5>CMS: Управление сайтом</h5>
+                                    <p>Мощная и полноценная СMS для простого позиционирования
+                                        разных объектов сайта. Возможность кастомизации всего контента сайта в CMS.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/feature-icon-6.png"></div>
+                                <div class="features-text"><h5>Оптимизация скорости загрузки</h5>
+                                    <p>Вы получаете более высокую конверсию сайта! Более высокие позиции в поисковых
+                                        системах! Более лояльное отношение посетителей!</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/feature-icon-11.png"></div>
+                                <div class="features-text"><h5>Контент сайта</h5>
+                                    <p>Написание статей, оптимизация и наполнение нового сайта
+                                        Вы предоставляете основные тезисы – мы пишем статьи, проверяем и размещаем.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/analytics.png"></div>
+                                <div class="features-text"><h5>Яндекс.Метрика и Google Analytics</h5>
+                                    <p>На данный момент самые популярные счетчики среди бесплатных — Google Analytics (GA) и Яндекс.Метрика (ЯМ).</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="features-box">
+                                <div class="features-icon"><img alt="" src="img/feature-icon-8.png"></div>
+                                <div class="features-text"><h5>Хостинг и домен для сайта</h5>
+                                    <p>Выгодные условия, отсутствие скрытых платежей,Защита сайтов от взлома.</p></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -151,36 +198,14 @@
                         </div>
                         <div class="col-md-4">
                             <div class="features-box">
-                                <div class="features-icon"><img alt="" src="img/feature-icon-6.png"></div>
-                                <div class="features-text"><h5>Оптимизация скорости загрузки</h5>
-                                    <p>Вы получаете более высокую конверсию сайта! Более высокие позиции в поисковых
-                                        системах! Более лояльное отношение посетителей!</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/feature-icon-7.png"></div>
                                 <div class="features-text"><h5>Техподдержка 30 дней</h5>
                                     <p>Комплексаная услуга, направленная на обеспечение работоспособности вашего
                                         сайта.</p></div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="features-box">
-                                <div class="features-icon"><img alt="" src="img/feature-icon-8.png"></div>
-                                <div class="features-text"><h5>Хостинг и домен для сайта</h5>
-                                    <p>Выгодные условия, отсутствие скрытых платежей,Защита сайтов от взлома.</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="features-box">
-                                <div class="features-icon"><img alt="" src="img/feature-icon-11.png"></div>
-                                <div class="features-text"><h5>Контент сайта</h5>
-                                    <p>Написание статей, оптимизация и наполнение нового сайта
-                                        Вы предоставляете основные тезисы – мы пишем статьи, проверяем и размещаем.</p>
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
                     <section id="prices" class="pricing-section bg-12">
                         <div class="main-title about"><h3> Начинать можем уже сегодня</h3></div>
