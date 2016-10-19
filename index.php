@@ -17,7 +17,7 @@
                                                 <h2>
                                                     Landing page <br/>от 9900 рублей
                                                 </h2>
-                                                <a href="#" class="button-medium">Заказать</a>
+                                                <a href="#prices" class="button-medium">Заказать</a>
                                             </div>
                                         </div>
                                     </li>
@@ -30,7 +30,7 @@
                                                 <h2>
                                                     Верстка HTML от PSD <br/> от 990 рублей
                                                 </h2>
-                                                <a href="#" class="button-medium">Заказать</a>
+                                                <a href="#prices" class="button-medium">Заказать</a>
                                             </div>
                                         </div>
                                     </li>
@@ -43,7 +43,7 @@
                                                 <h2>
                                                     Нужен сайт уже сегодня ? Готовие сайти <br/>от 4900 рублей
                                                 </h2>
-                                                <a href="#" class="button-medium">Заказать</a></div>
+                                                <a href="#prices" class="button-medium">Заказать</a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -52,10 +52,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container absolute">
-            <a href="#info" class="go-to-bottom"></a>
-        </div>
+            <div class="container absolute">
+                <a href="#info" class="go-to-bottom"></a>
+            </div>
         </div>
     </section>
     <section id="info" class="special-features-area">
@@ -100,15 +99,17 @@
         <div class="content-area-with-bg" style="background: url(img/portfolio-left-bg.png) left bottom no-repeat;">
             <div class="services-area-sec">
                 <div class="services-area-items">
+                    <div class="main-title about"><h3>Также мы предлагаем следующие услуги </h3></div>
+
                     <div class="container">
                         <div class="col-md-4">
                             <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/feature-icon-1.png"></div>
                                 <div class="features-text"><h5>Заказать Логотип</h5>
                                     <p>Разработка логотипа - это первый и важный шаг на пути к
-                                        сильному бренду. Специалисты Creanima помогут Вам в определении целей,
+                                        сильному бренду. Специалисты Creanima омогут Вам в определении целей,
                                         постановке и решении задач по созданию нужного
-                                        образа Вашей компании</p></div>
+                                        образа Вашей компаниип</p></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -181,7 +182,8 @@
                             </div>
                         </div>
                     </div>
-                    <section class="pricing-section bg-12">
+                    <section id="prices" class="pricing-section bg-12">
+                        <div class="main-title about"><h3> Начинать можем уже сегодня</h3></div>
                         <div class="pricing pricing--palden">
                             <div class="pricing__item">
                                 <div class="pricing__deco">
@@ -227,10 +229,10 @@ H42.401L43.415,98.342z"/>
                                         <path class="deco-layer deco-layer--4" fill="#FFFFFF" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"/>
                     </svg>
-                                    <div class="pricing__price"><span class="pricing__period">от</span>9900<span
+                                    <div class="pricing__price"><span class="pricing__period">от</span>4900<span
                                             class="pricing__currency"><i class="fa fa-rub"
                                                                          aria-hidden="true"></i></span></div>
-                                    <h3 class="pricing__title">Landing Page</h3>
+                                    <h3 class="pricing__title">Готовий макет</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
                                     <li class="pricing__feature">Дизайн</li>
@@ -256,10 +258,10 @@ H42.401L43.415,98.342z"/>
                                         <path class="deco-layer deco-layer--4" fill="#FFFFFF" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"/>
                     </svg>
-                                    <div class="pricing__price"><span class="pricing__period">от</span>4900<span
+                                    <div class="pricing__price"><span class="pricing__period">от</span>9900<span
                                             class="pricing__currency"><i class="fa fa-rub"
                                                                          aria-hidden="true"></i></span></div>
-                                    <h3 class="pricing__title">Готовий макет</h3>
+                                    <h3 class="pricing__title">Landing page</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
                                     <li class="pricing__feature">Вибранний макет</li>
@@ -271,6 +273,8 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                         </div>
                     </section>
                 </div>
+            </div>
+        </div>
     </section>
     <section class="home-portfolio-area">
         <div class="portfolio-bg-area" style="background: none;">

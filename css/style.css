@@ -3510,7 +3510,6 @@ display: flex;
 }
 .pricing--palden .pricing__deco {
     border-radius: 10px 10px 0 0;
-    background: #2578cd;
     padding: 4em 0 9em;
     position: relative;
 }
@@ -3525,7 +3524,7 @@ display: flex;
     padding: 5em 0 8.885em 0;
 }
 .pricing--palden .pricing__title {
-    font-size: 0.75em;
+    font-size: 13px;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -3597,6 +3596,16 @@ display: flex;
 .pricing--palden .pricing__action:hover,
 .pricing--palden .pricing__action:focus {
     background-color: #ed1c36;
+}
+
+.pricing__item:first-child .pricing__deco {
+    background-color: rgba(251, 183, 18, 0.8);
+}
+.pricing__item:nth-child(2) .pricing__deco {
+    background-color: #51a94f;
+}
+.pricing__item:nth-child(3) .pricing__deco {
+    background-color: rgba(37, 120, 205, 0.81);
 }
 
 @media (max-width: 1200px) {
