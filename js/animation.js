@@ -60,5 +60,6 @@ jQuery(document).ready(function () {
 
     $('.tel-header').hover( function () {
         $(this).find('.fa-phone').toggleClass('swing animated');
+        $(this).find('span').toggleClass('span_hover');
     })
 });

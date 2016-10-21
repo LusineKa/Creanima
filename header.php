@@ -48,7 +48,8 @@
                     </ul>
                 </nav>
                 <div class="tel-header" data-order-call="">
-                    <i class="fa fa-phone" aria-hidden="true"></i>  8 (906) 590 44 41
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>8 (906) 590 44 41 <br>Заказать звонок</span>
                 </div>
             </div>
         </div>

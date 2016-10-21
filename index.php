@@ -232,9 +232,11 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <h3 class="pricing__title">HTML от PSD </h3>
                                 </div>
                                 <ul class="pricing__feature-list">
-                                    <li class="pricing__feature">Html to psd 1w</li>
-                                    <li class="pricing__feature">Html to psd 2w</li>
-                                    <li class="pricing__feature">Html to psd 3w</li>
+                                    <li class="pricing__feature">Кросс-браузерную вёрстку HTML5 + CSS3</li>
+                                    <li class="pricing__feature">Профессиональный, качественный код, написанный руками</li>
+                                    <li class="pricing__feature">Минимизированные CSS и JS, для ускорения загрузки сайта</li>
+                                    <li class="pricing__feature">12 дней бесплатной поддержки</li>
+                                    <li class="pricing__feature"> Все исходные коды, включая конфигурацию сборщика Gulp/Webpack</li>
                                 </ul>
                                 <button class="pricing__action">Подробнее</button>
                             </div>

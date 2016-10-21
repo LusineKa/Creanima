@@ -3449,6 +3449,38 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     border-radius: 50px;
     transition: all .5s;
     cursor: pointer;
+    height: 30px;
+    overflow: hidden;
+    line-height: 1em;
+}
+.tel-header span {
+    position: relative;
+    top: 24px;
+    -webkit-animation-name: call_now;
+    -moz-animation-name: call_now;
+    -o-animation-name: call_now;
+    animation-name: call_now;
+    -webkit-animation-duration: 10s;
+    -moz-animation-duration: 10s;
+    -o-animation-duration: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    line-height: 1.2em;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.tel-header .span_hover {
+    -webkit-animation-name: none;
+    -moz-animation-name: none;
+    -o-animation-name: none;
+    animation-name: none;
+    top: 0;
+}
+@keyframes call_now {
+    10%{top:0}
+    40%{top:0}
+    55%{top:-26px}
+    95%{top:-26px}
+    100%{top:-48px}
 }
 #info {
     padding-bottom: 0;
