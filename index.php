@@ -28,7 +28,7 @@
                                             </div>
                                             <div class="half-div">
                                                 <h2>
-                                                    Верстка HTML от PSD <br/> от 990 рублей
+                                                    Верстка Из PSD в HTML <br/> от 990 рублей
                                                 </h2>
                                                 <a href="#prices" class="button-medium">Заказать</a>
                                             </div>
@@ -229,14 +229,18 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <div class="pricing__price"><span class="pricing__period">от</span>990<span
                                             class="pricing__currency"><i class="fa fa-rub"
                                                                          aria-hidden="true"></i></span></div>
-                                    <h3 class="pricing__title">HTML от PSD </h3>
+                                    <h3 class="pricing__title">Из PSD в HTML</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
-                                    <li class="pricing__feature">Кросс-браузерную вёрстку HTML5 + CSS3</li>
-                                    <li class="pricing__feature">Профессиональный, качественный код, написанный руками</li>
-                                    <li class="pricing__feature">Минимизированные CSS и JS, для ускорения загрузки сайта</li>
-                                    <li class="pricing__feature">12 дней бесплатной поддержки</li>
-                                    <li class="pricing__feature"> Все исходные коды, включая конфигурацию сборщика Gulp/Webpack</li>
+                                    <li class="price-title orange">Вёрстка текстовых страниц</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp
+                                        LESS / SASS / BEM</li>
+                                    <li  class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspSlim / Jade</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspGulp / Webpack с конфигами</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspВыполнена в краткие сроки</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspКачественный код</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspBootstrap / Susy / Foundation / Materalize</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspБесплатная техподдержка 7 дней</li>
                                 </ul>
                                 <button href="img/Прайслист.jpg" data-featherlight="image" class="pricing__action">Подробнее</button>
                             </div>
@@ -262,10 +266,16 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <h3 class="pricing__title">Готовий макет</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
-                                    <li class="pricing__feature">Дизайн</li>
-                                    <li class="pricing__feature">Верстка страници</li>
-                                    <li class="pricing__feature">Продающий контент</li>
-                                    <li class="pricing__feature">Домейн и хост</li>
+                                    <li class="price-title green">Сайт под ключ с уникальным дизайном из каталога</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБольшой выбор</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspЛюбой макет с фиксированной ценой</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspТолько трендовые и модные шаблоны</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspСупер экономия вашего времени</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp1-2 дней до финиша</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен и домен в ПОДАРОК</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspБесплатная техподдержка 7 дней</li>
+
+
                                 </ul>
                                 <button class="pricing__action">Подробнее</button>
                             </div>
@@ -291,9 +301,13 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <h3 class="pricing__title">Landing page</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
-                                    <li class="pricing__feature">Вибранний макет</li>
-                                    <li class="pricing__feature">Продающий контент</li>
-                                    <li class="pricing__feature">Домейн и хост</li>
+                                    <li class="price-title list-blue">Посадочная страница<br> или landing page</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspИндивидуальный дизайн</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspАнализ конкурентов и лидеров рынка</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspКороткие сроки</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен и домен в ПОДАРОК!</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБесплатная техподдержка 15 дней</li>
+
                                 </ul>
                                 <button class="pricing__action">Подробнее</button>
                             </div>

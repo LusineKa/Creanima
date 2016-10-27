@@ -3677,7 +3677,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 .pricing--palden .pricing__feature {
-    padding: 1em 0;
+    padding: 10px 25px;
 }
 
 .pricing--palden .pricing__action {
@@ -5026,4 +5026,24 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 .big-ben {
     font-size: 1.4em;
     font-family: 'Circe-bold';
+}
+
+.pricing__feature-list .fa {
+    color: green;
+}
+
+.price-title {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.orange {
+    color: #fbc541;
+}
+.green {
+    color: #51A94F;
+}
+
+.list-blue {
+    color: #4e91d6;
 }
