@@ -21,7 +21,7 @@
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/baroque.jpg">
                                     <div class="mask">
                                         <div class="text-content">
-                                            <a href="img/portfolio/lightbox/baroque.jpg" class="ovelay-icon"
+                                            <a href="img/portfolio/lightbox/baroquetext.jpg" class="ovelay-icon"
                                                data-featherlight="image">
                                                 <i class="fa fa-search-plus" aria-hidden="true"></i>
                                             </a>
@@ -37,7 +37,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/atb.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/atb.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/atbtext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -53,7 +53,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/lelata.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/lelata.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/lelatatext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -69,7 +69,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/asapio.png">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/tonoyan.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/asapiotext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -85,7 +85,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/apaven.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/apaven.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/apaventext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -101,7 +101,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/cloud.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/cloud.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/cloudtext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -117,7 +117,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/smsreklami.png">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/troyka.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/smsreklamitetx.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -133,7 +133,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/winery.jpg">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/winery.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/lewinerytext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
@@ -149,7 +149,7 @@
                             <div class="img-content-box">
                                 <div class="thumbnail-holder"><img alt="" src="img/portfolio/inomma.png">
                                     <div class="mask">
-                                        <div class="text-content"><a href="img/portfolio/lightbox/winery.jpg"
+                                        <div class="text-content"><a href="img/portfolio/lightbox/inommatext.jpg"
                                                                      class="ovelay-icon"
                                                                      data-featherlight="image"><i
                                                     class="fa fa-search-plus"
