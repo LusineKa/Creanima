@@ -3201,6 +3201,7 @@ h4 label {
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Circe-Bold';
     src: url('./fonts/Circe-bold/Circe-Bold.ttf');
@@ -3210,7 +3211,6 @@ h4 label {
     font-weight: normal;
     font-style: normal;
 }
-
 
 h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: 'Circe-Regular' !important;
@@ -3515,10 +3515,10 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         top: 0
     }
     55% {
-        top: -26px
+        top: -27px
     }
     95% {
-        top: -26px
+        top: -27px
     }
     100% {
         top: -48px
@@ -3678,6 +3678,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .pricing--palden .pricing__feature {
     padding: 10px 25px;
+    text-align: left;
 }
 
 .pricing--palden .pricing__action {
@@ -5040,6 +5041,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 .orange {
     color: #fbc541;
 }
+
 .green {
     color: #51A94F;
 }

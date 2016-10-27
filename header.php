@@ -53,7 +53,7 @@
                 </nav>
                 <div class="tel-header" data-order-call="">
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>8 (906) 590 44 41 <br>Заказать звонок</span>
+                    <span>8 (906) 587 78 18 <br>Заказать звонок</span>
                 </div>
             </div>
         </div>

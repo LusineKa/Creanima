@@ -62,7 +62,6 @@ jQuery(document).ready(function () {
         $(this).find('span').toggleClass('span_hover');
     })
 
-
     $('.pricing__action').click(function () {
         $('.featherlight').css('overflow','auto');
         $('.featherlight-content').css('padding','0 5px')

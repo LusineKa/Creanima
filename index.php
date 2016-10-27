@@ -125,7 +125,8 @@
                             <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/presentation.png"></div>
                                 <div class="features-text"><h5>Анализ рынка и конкурентов</h5>
-                                    <p>Анализ Рынка/конкурентов одна из важнейших деталей при создании посадочной страницы, мы должны чётко понимать уровень рынка и его образованность.</p></div>
+                                    <p>Анализ Рынка/конкурентов одна из важнейших деталей при создании посадочной
+                                        страницы, мы должны чётко понимать уровень рынка и его образованность.</p></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -153,7 +154,8 @@
                                 <div class="features-icon"><img alt="" src="img/settings.png"></div>
                                 <div class="features-text"><h5>CMS: Управление сайтом</h5>
                                     <p>Мощная и полноценная СMS для простого позиционирования
-                                        разных объектов сайта. Возможность кастомизации всего контента сайта в CMS.</p></div>
+                                        разных объектов сайта. Возможность кастомизации всего контента сайта в CMS.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -177,7 +179,8 @@
                             <div class="features-box">
                                 <div class="features-icon"><img alt="" src="img/analytics.png"></div>
                                 <div class="features-text"><h5>Яндекс.Метрика и Google Analytics</h5>
-                                    <p>На данный момент самые популярные счетчики среди бесплатных — Google Analytics (GA) и Яндекс.Метрика (ЯМ).</p></div>
+                                    <p>На данный момент самые популярные счетчики среди бесплатных — Google Analytics
+                                        (GA) и Яндекс.Метрика (ЯМ).</p></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -234,15 +237,30 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                 <ul class="pricing__feature-list">
                                     <li class="price-title orange">Вёрстка текстовых страниц</li>
                                     <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp
-                                        LESS / SASS / BEM</li>
-                                    <li  class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspSlim / Jade</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspGulp / Webpack с конфигами</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspВыполнена в краткие сроки</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspКачественный код</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspBootstrap / Susy / Foundation / Materalize</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspБесплатная техподдержка 7 дней</li>
+                                        LESS / SASS / BEM
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspSlim
+                                        / Jade
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspGulp
+                                        / Webpack с конфигами
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspВыполнена
+                                        в краткие сроки
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>
+                                        &nbspКачественный код
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>
+                                        &nbspBootstrap / Susy / Foundation / Materalize
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>
+                                        &nbspБесплатная техподдержка 7 дней
+                                    </li>
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                    Подробнее
+                                </button>
                             </div>
                             <div class="pricing__item pricing__item--featured">
                                 <div class="pricing__deco">
@@ -267,17 +285,33 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                 </div>
                                 <ul class="pricing__feature-list">
                                     <li class="price-title green">Сайт под ключ с уникальным дизайном из каталога</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБольшой выбор</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspЛюбой макет с фиксированной ценой</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspТолько трендовые и модные шаблоны</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspСупер экономия вашего времени</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp1-2 дней до финиша</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен и домен в ПОДАРОК</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i> &nbspБесплатная техподдержка 7 дней</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБольшой
+                                        выбор
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspЛюбой
+                                        макет с фиксированной ценой
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspТолько
+                                        трендовые и модные шаблоны
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspСупер
+                                        экономия вашего времени
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp1-2
+                                        дней до финиша
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен
+                                         в подарок
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>
+                                        &nbspБесплатная техподдержка 14 дней
+                                    </li>
 
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                    Подробнее
+                                </button>
                             </div>
                             <div class="pricing__item">
                                 <div class="pricing__deco">
@@ -302,14 +336,26 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                 </div>
                                 <ul class="pricing__feature-list">
                                     <li class="price-title list-blue">Посадочная страница<br> или landing page</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspИндивидуальный дизайн</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspАнализ конкурентов и лидеров рынка</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspКороткие сроки</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен и домен в ПОДАРОК!</li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБесплатная техподдержка 15 дней</li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspИндивидуальный
+                                        дизайн
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspАнализ
+                                        конкурентов и лидеров рынка
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspКороткие
+                                        сроки
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен
+                                         в подарок!
+                                    </li>
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspБесплатная
+                                        техподдержка 14 дней
+                                    </li>
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                    Подробнее
+                                </button>
                             </div>
                         </div>
                     </section>
