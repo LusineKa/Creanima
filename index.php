@@ -320,7 +320,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                                 <div class="mask">
                                                     <div class="text-content"><a data-featherlight="image"
                                                                                  class="ovelay-icon"
-                                                                                 href="img/portfolio/lightbox/troyka.jpg"><i
+                                                                                 href="img/portfolio/lightbox/inommatext.jpg"><i
                                                                 aria-hidden="true"
                                                                 class="fa fa-search-plus"></i></a>
                                                         <a class="ovelay-icon" data-link="http://inomma.ru"><i
@@ -338,7 +338,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                                 <div class="mask">
                                                     <div class="text-content"><a data-featherlight="image"
                                                                                  class="ovelay-icon"
-                                                                                 href="img/portfolio/lightbox/atb.jpg"><i
+                                                                                 href="img/portfolio/lightbox/atbtext.jpg"><i
                                                                 aria-hidden="true"
                                                                 class="fa fa-search-plus"></i></a>
                                                         <a class="ovelay-icon" data-link="http://atb.su"><i
@@ -356,7 +356,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                                 <div class="mask">
                                                     <div class="text-content"><a data-featherlight="image"
                                                                                  class="ovelay-icon"
-                                                                                 href="img/portfolio/lightbox/winery.jpg"><i
+                                                                                 href="img/portfolio/lightbox/cloudtext.jpg"><i
                                                                 aria-hidden="true"
                                                                 class="fa fa-search-plus"></i></a>
                                                         <a class="ovelay-icon" data-link="projects/boxcloud/index.html"><i
