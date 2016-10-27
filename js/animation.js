@@ -28,7 +28,6 @@ jQuery(document).ready(function () {
                 $('.overlay-mask').css('background-color', 'rgba(174,220,46,0.8)');
                 break;
         }
-        ;
     };
     switcher_color();
     $(".slider").bind("DOMSubtreeModified", function () {
@@ -62,4 +61,11 @@ jQuery(document).ready(function () {
         $(this).find('.fa-phone').toggleClass('swing animated');
         $(this).find('span').toggleClass('span_hover');
     })
+
+
+    $('.pricing__action').click(function () {
+        $('.featherlight').css('overflow','auto');
+        $('.featherlight-content').css('padding','0 5px')
+    })
 });
+

@@ -238,7 +238,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <li class="pricing__feature">12 дней бесплатной поддержки</li>
                                     <li class="pricing__feature"> Все исходные коды, включая конфигурацию сборщика Gulp/Webpack</li>
                                 </ul>
-                                <button href="img/Прайслист.jpg" data-featherlight="image" class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
                             </div>
                             <div class="pricing__item pricing__item--featured">
                                 <div class="pricing__deco">
@@ -267,7 +267,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <li class="pricing__feature">Продающий контент</li>
                                     <li class="pricing__feature">Домейн и хост</li>
                                 </ul>
-                                <button class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
                             </div>
                             <div class="pricing__item">
                                 <div class="pricing__deco">
@@ -295,7 +295,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <li class="pricing__feature">Продающий контент</li>
                                     <li class="pricing__feature">Домейн и хост</li>
                                 </ul>
-                                <button class="pricing__action">Подробнее</button>
+                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">Подробнее</button>
                             </div>
                         </div>
                     </section>
