@@ -2,11 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Pling - Multi-purpose Bootstrap Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="" content=""/>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Creanima Студио</title>
+    <meta name="description" content="Creanima Студио | Создание и продвижение сайтов, 8 (906) 587-78-18">
+    <meta name="keywords" content="Создание и продвижение сайтов, создание сайтов в Москве, продвижение сайтов в Москве">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://creanima.ru/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="shortcut icon" href="img/favico.png">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
