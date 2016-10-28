@@ -342,8 +342,8 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspАнализ
                                         конкурентов и лидеров рынка
                                     </li>
-                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspКороткие
-                                        сроки
+                                    <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbsp5-8
+                                        дней до финиша
                                     </li>
                                     <li class="pricing__feature"><i class="fa fa-check" aria-hidden="true"></i>&nbspДомен
                                          в подарок!
