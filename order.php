@@ -15,7 +15,7 @@ if(!empty($_POST['send'])) {
     $mess .= "Сообщение: <b>".$message."</b><br />";
 
     $theme = "Заявка Z".$Nzakaz;
-    mail("mymail@mail.ru", $theme, $mess, "From: mysite.com <mymail@mail.ru>\nContent-Type: text/html;\n charset=utf-8\nX-Priority: 0");
+    mail("hello@creanima.ru", $theme, $mess, "From: Creanima.ru <hello@creanima.ru>\nContent-Type: text/html;\n charset=utf-8\nX-Priority: 0");
 
     echo "<h3>Заявка удачно оформлена.</h3>";
     echo "<p>Заявке присвоен номер Z".$Nzakaz.". Наш менеджер свяжется с вами в ближайшее время.</p>";

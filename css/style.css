@@ -3828,11 +3828,15 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 
     .coming-soon {
-        left: 75px;
+        left: 90px;
     }
 }
 
 @media (max-width: 991px) {
+    .tel-header, .container.absolute {
+        display: none;
+    }
+
     .about-us-area, .inner-banner h2, .main-title h1, .main-title h2, .menu {
         text-align: center
     }
@@ -4105,7 +4109,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
     .menu {
         width: 106%;
-        margin: 26px -25px 0;
+        margin: 25px auto;
     }
 
     .footer-area {
@@ -4165,8 +4169,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 @media (max-width: 640px) {
-    .tel-header, .container.absolute {
-        display: none;
+    .coming-soon {
+        left: 50%;
     }
 
     .header-area .logo img {
@@ -4201,8 +4205,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         display: none;
         background: rgba(0, 0, 0, .7);
         float: left;
-        height: 300px;
-        overflow-y: scroll
+
     }
 
     .menu li ul, .menu li ul li a, .menu li ul li:hover {
@@ -4912,10 +4915,6 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
     .main-banner .flexslider .slides h2 {
         margin: -82px 0 10px;
-    }
-
-    .coming-soon {
-        left: 60px;
     }
 
     .main-title h1 {
