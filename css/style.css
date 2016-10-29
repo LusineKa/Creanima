@@ -2212,12 +2212,6 @@ form .button-medium.dark:hover, form a:hover {
     color: #424c5c
 }
 
-form .col-md-12:last-child {
-    margin-top: 30px;
-    border-top: 1px solid #ccc;
-    padding-top: 30px
-}
-
 form a {
     color: #51a94f;
     margin: 0 5px

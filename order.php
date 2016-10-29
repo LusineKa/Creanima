@@ -18,7 +18,7 @@ if(!empty($_POST['send'])) {
     mail("hello@creanima.ru", $theme, $mess, "From: Creanima.ru <hello@creanima.ru>\nContent-Type: text/html;\n charset=utf-8\nX-Priority: 0");
 
     echo "<h3>Заявка удачно оформлена.</h3>";
-    echo "<p>Заявке присвоен номер Z".$Nzakaz.". Наш менеджер свяжется с вами в ближайшее время.</p>";
+    echo "<p>Заявке присвоен номер N".$Nzakaz.". Мы свяжемся с вами в ближайшее время</p>";
 
 }
 else {

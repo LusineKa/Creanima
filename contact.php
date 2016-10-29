@@ -39,23 +39,14 @@
                 <div class="form-sec">
                     <form name="contact" method="post" action="" id="ajaxform">
                         <div class="col-md-4">
-                            <input type="text" id="contact-name" placeholder="Ваше имя" class="text-field-box" name="person" val=""></div>
+                            <input type="text" id="contact-name" placeholder="Ваше имя" class="text-field-box" name="name"></div>
                         <div class="col-md-4">
-                            <input type="text" id="contact-email" placeholder="Email" class="text-field-box" name="email" val=""></div>
+                            <input type="text" id="contact-email" placeholder="Email" class="text-field-box" name="email"></div>
                         <div class="col-md-4">
-                            <input type="text" id="contact-number" placeholder="Номер телефона" class="text-field-box" name="subject" val=""></div>
+                            <input type="text" id="contact-number" placeholder="Номер телефона" class="text-field-box" name="subject"></div>
                         <div class="col-md-12">
-                            <textarea id="contact-msg" class="text-field-box" placeholder="Ваше сообщение" name="message" val=""></textarea>
+                            <textarea id="contact-msg" class="text-field-box" placeholder="Ваше сообщение" name="message"></textarea>
                             <button name="contact" type="submit" id="contact-submit" class="button-medium">Отправить</button>
-                        </div>
-                        <div class="error-item">
-                            <div id="contact-loading" style="display: none;"> Email Sending...</div>
-                            <div id="contact-success" style="display: none;"> Your message sent sucessfully to our team
-                                and they will be in touch with you asap.
-                            </div>
-                            <div id="contact-failed" style="display: none;"> Error...!, message sending faild , try
-                                after sometime.
-                            </div>
                         </div>
                     </form>
                 </div>
