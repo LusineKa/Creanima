@@ -43,6 +43,7 @@
         <a href="#" class="btn button form_submit">Заказать</a>
     </form>
 </div>
+
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/owl-carousel-settings.js"></script>
@@ -53,6 +54,18 @@
 <script type="text/javascript" src="js/featherlight.min.js"></script>
 <script type="text/javascript" src="js/forms.js"></script>
 <script type="text/javascript" src="js/animation.js"></script>
+
+<!--Analytics-->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73881780-5', 'auto');
+    ga('send', 'pageview');
+
+</script>
 </body>
 </html>
 
