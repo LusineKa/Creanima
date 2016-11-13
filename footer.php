@@ -15,8 +15,7 @@
                         <div class="right-sec"><a href="contact.php" class="button-medium">Свяжитесь с нами</a></div>
                         <ul class="social-media-sec">
                             <li><a href="https://www.facebook.com/creanima.ru"><i class="fa fa-facebook-official"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://twitter.com/Creanima1"><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
                 </div>
