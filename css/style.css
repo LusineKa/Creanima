@@ -646,7 +646,7 @@ ol li a:hover {
     text-align: center
 }
 
-.features-box .features-text h5 {
+.features-box .features-text h5{
     font-size: 24px;
     margin: 0 0 20px
 }
@@ -2872,6 +2872,11 @@ option {
     margin: 0 0 100px
 }
 
+.contact-sec-contents .features-box a{
+    color: inherit;
+    font-weight: 600
+}
+
 .contact-sec-contents p {
     line-height: 24px
 }
@@ -3116,7 +3121,8 @@ h4 label {
 .footer-content-area {
     width: 100%;
     height: auto;
-    float: left
+    float: left;
+    line-height: 30px;
 }
 
 .footer-area .overlay a:hover {
@@ -3126,7 +3132,10 @@ h4 label {
 .footer-content-area h5 {
     color: #fff;
     font-weight: 400;
-    margin-bottom: 10px
+}
+.footer-content-area .col-md-6:first-child *{
+    color: white;
+    font-size: 24px;
 }
 
 .footer-content-area .logo {

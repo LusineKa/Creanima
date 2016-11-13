@@ -17,7 +17,7 @@
                             <div class="features-icon"><img src="img/contact-icon-1.png" alt=""></div>
                             <div class="features-text"><h6>Номер телефона</h6>
                                 <p>Мы будем рады ответить на Ваши звонки</p>
-                                <p><b>8 906 587 78 18</b></p>
+                                <p><a href="callto:+79065877818">8 906 587 78 18</a></p>
                         </div>
                             </div>
                     </div>
