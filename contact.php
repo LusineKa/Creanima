@@ -27,7 +27,7 @@
                             <div class="features-icon"><img src="img/contact-icon-3.png" alt=""></div>
                             <div class="features-text"><h6>Email-адрес</h6>
                                 <p>Мы будем рады ответить на ваши вопросы</p>
-                                <p><b>info@yourdomain.com</b></p>
+                                <p><b>hello@creanima.ru</b></p>
                         </div>
                     </div>
                 </div>
