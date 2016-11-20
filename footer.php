@@ -4,9 +4,9 @@
             <div class="container">
                 <div class="footer-content-area">
                     <div class="col-md-6">
-                        <a href="callto:+79065877818"><i class="fa fa-phone"  aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-whatsapp">&nbsp;&nbsp;</i><i class="fa fa-paper-plane"></i> 8 906 587 78 18</a>
+                        <a href="callto:+79065877818"><i class="fa fa-phone"  aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-whatsapp">&nbsp;&nbsp;</i><i class="fa fa-paper-plane"></i> +7 906 587 78 18</a>
                         <h5><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@creanima.ru</h5>
-                        <h5><i class="fa fa-skype" aria-hidden="true"></i> creanima.info</h5>
+                        <h5><i class="fa fa-skype" aria-hidden="true"></i> Creanima Studio</h5>
                         <div class="copyright">
                             <p>Copyright © 2016 Creanima </p>
                         </div>

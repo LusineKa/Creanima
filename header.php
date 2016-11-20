@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Creanima Студио</title>
-    <meta name="description" content="Creanima Студио | Создание и продвижение сайтов, 8 (906) 587-78-18">
+    <meta name="description" content="Creanima Студио | Создание и продвижение сайтов, +7 (906) 587-78-18">
     <meta name="keywords" content="Создание и продвижение сайтов, создание сайтов в Москве, продвижение сайтов в Москве">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://creanima.ru/">
@@ -53,7 +53,7 @@
                 </nav>
                 <div class="tel-header" data-order-call="">
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>8 (906) 587 78 18 <br>Заказать звонок</span>
+                    <span>+7 (906) 587 78 18 <br>Заказать звонок</span>
                 </div>
             </div>
         </div>
