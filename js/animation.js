@@ -43,12 +43,7 @@ jQuery(document).ready(function () {
     $('.modal-header button').click(function () {
         $('.modal-body iframe').attr('src', null);
     });
-
-    //Equal heights services page
-    $('.services-area-items .col-md-4').css({
-        'height': $('.services-area-items .col-md-4').height()
-    });
-
+    
     // Main page go to bottom
     function scrollToAnchor(aid) {
         var aTag = $("a[name='" + aid + "']");

@@ -567,6 +567,10 @@ ol li, ol li a {
     line-height: 53px
 }
 
+.services-area-items .container .col-md-4{
+    height: 320px
+}
+
 .features-box, .home-feature-content, .services-area-items, .special-features-area {
     height: auto;
     width: 100%
