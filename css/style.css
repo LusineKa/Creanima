@@ -1122,6 +1122,16 @@ theme .owl-controls.clickable .owl-buttons div:hover {
     max-width: 90%
 }
 
+.featherlight-content a {
+    float: right;
+    margin-top:15px;
+}
+
+.featherlight-content a:hover {
+    background-color: #51a94f;
+    color: white;
+}
+
 .button-large, .form-style-sec, .main-title, .main-title h2 {
     text-align: center
 }
@@ -3985,10 +3995,6 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         background-size: 40%
     }
 
-    .footer-area a.button-medium {
-        float: left
-    }
-
     .footer-content-area .right-sec {
         float: left;
         padding-top: 35px;
@@ -5049,3 +5055,4 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 .list-blue {
     color: #4e91d6;
 }
+

@@ -35,7 +35,7 @@
         </div>
         <div class="contact-form-sec">
             <div class="container">
-                <div class="main-title"><h3>Быстрая связь</h3></div>
+                <div class="main-title"><h3>Свяжитесь с нами</h3></div>
                 <div class="form-sec">
                     <form name="contact" method="post" action="" id="ajaxform">
                         <div class="col-md-4">
