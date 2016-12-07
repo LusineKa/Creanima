@@ -4278,7 +4278,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 
     .main-banner {
-        height: 500px
+        height: 500px;
+        min-height:350px;
     }
 
     .main-banner .overlay-mask .banner-container {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="890b0088-12a4-46fc-9036-fd3f4507a2ae" name="Creanima" url="http://cpanel6.d.fozzy.com">
+        <fileTransfer host="cpanel6.d.fozzy.com" port="21" password="df98dfcedff8dfe3df9cdfccdf9edfc7dfcbdf9d" username="creanim1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

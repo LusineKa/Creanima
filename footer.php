@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="right-sec">
-                            <a href="img/hiring.png" data-featherlight="image" class="button-medium">
+                            <a href="http://jobs.creanima.ru/" class="button-medium">
                                 Вакансии
                                 <i class="fa fa-users" aria-hidden="true"></i>
                             </a>
