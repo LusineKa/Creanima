@@ -25,13 +25,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipient = "hello@creanima.ru";
 
     // Set the email subject.
-    $subject = "New contact from $name";
+    $subject = "CV Creanima $name";
 
     // Build the email content.
     $email_content = "Name: $name\n";
     $email_content .= "Email: $email\n";
     $email_content .= "Phone: $tel\n";
-    $email_content .= "Message:\n$message\n";
+    $email_content .= "Message:$message\n";
 
     // Build the email headers.
     $email_headers = "CV vacansy from: $name <$email>";
@@ -52,5 +52,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
     echo "There was a problem with your submission, please try again.";
 }
-
 ?>

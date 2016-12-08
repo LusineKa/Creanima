@@ -3813,7 +3813,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
     .menu {
         width: 106%;
-        margin: 8px -25px 0;
+        margin: 0 -25px 0;
     }
 
     .content-area-with-bg, .portfolio-bg-area, .special-features-area {
