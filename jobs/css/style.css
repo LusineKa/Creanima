@@ -9,10 +9,13 @@ body{
 	font-size: 20px;
 	font-weight: 100;
 	color:#666;
-	background:#f3faff;
+	background:#8e725d;
 	line-height:1.6;
+	min-height: 100vh;
 }
-
+#wrap {
+	background-color: #f3faff;
+}
 .logo{
 	background:url(../images/logo.png) no-repeat center;  /* Change logo image */
 	height: 117px;
@@ -174,7 +177,7 @@ body{
 p.slogan{
 	margin:30px 300px 0 0;
 }
-p.slogan strong{
+p.strong{
 	font-size: 36px;
 	vertical-align: super;
 	display: block;
@@ -183,6 +186,10 @@ p.slogan strong{
 }
 p.req {
 	padding-left: 8px;
+	text-align: left;
+}
+p.bold {
+	font-weight: 700;
 	text-align: left;
 }
 
@@ -231,30 +238,56 @@ ul.countdown:after{
 
 #subscribe_form {
 	width:600px;
-	margin:25px 0 0 0;
+	margin:0;
 }
 #subscribe_form .input-group {
     position: relative;
 	display: block;
 }
+#subscribe_form  .custom-file-upload .input-group {
+	display: table;
+}
+#subscribe_form .custom-file-upload .input-group .form-control {
+	border-right: none;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 	background-color: white !important;
 }
+.input-group-btn {
+	vertical-align: top;
+}
 #subscribe_form .input-group .form-control {
-    height: 70px;
+    height: 55px;
     font-family: 'Open Sans', sans-serif;
     background: #fff;
     box-shadow: none;
 	font-size: 20px;
 	padding:0 20px;
 	margin: 5px 0;
-	border: 1px solid #333;
+	border: 1px solid #8d8d8d;
 	border-radius: 6px;
 }
 
+#subscribe_form .custom-file-upload .btn {
+    height: 55px;
+    padding: 0 10px;
+	background:#fbb712; /* Change color of the subscribe input field button */
+	color: white;
+	text-transform:uppercase;
+	font-size: 20px;
+	float: left;
+	margin: 5px 0 0 0;
+	outline:none !important;
+	border: 1px solid #dea20f;
+	border-left: none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
 #subscribe_form .btn {
     height: 70px;
-    border: none;
     padding: 0 25px;
 	background:#fbb712; /* Change color of the subscribe input field button */
 	color: white;
@@ -263,8 +296,22 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 	float: left;
 	margin: 5px 0 0 0;
 	outline:none !important;
+	border: none;
 }
 
+.glyphicon.glyphicon-upload {
+	position: relative;
+	top: 2px;
+}
+.langs {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2000;
+}
+.langs .languages{
+	margin-right: 8px;
+}
 
 .flip-container {
 	perspective: 1000;
@@ -316,6 +363,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 .flipper {
+	min-height: 250px;
 	-webkit-transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
 	-ms-transition: 0.6s;
@@ -636,25 +684,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 		transform: rotate(360deg);
 	}
 }
-
-/*=============================== INTRO STYLES END ================================*/
-
-
-/*=============================== CONTENT STYLES BEGIN ================================*/
-#content{
-	padding: 5% 0;
-	background: #8e725d;
-	color: #fff;
+.file {
+	visibility: hidden;
+	position: absolute;
 }
-#content h2{
-	margin:0 0 40px 0;
-	font-weight:bold;
-}
-#content p{
-	color:#ede1d8;
-}
-/*=============================== CONTENT STYLES END ================================*/
-
 
 /*=============================== FOOTER STYLES BEGIN ================================*/
 footer{
@@ -718,9 +751,19 @@ footer{
 		font-size: 12px;
 	}
 	#content {
-		padding: 100px 0;
+		padding: 140px 0;
+	}
+	.langs {
+		right: 20px;
 	}
 } @media (max-width: 480px) {
+	.logo {
+		position: relative;
+		left: -40px;
+	}
+	.langs {
+		right: 20px;
+	}
 	ul.countdown li{
 		float:none;
 		padding:0 0 10px;
@@ -763,6 +806,12 @@ footer{
 		display:block;
 		width:100%;
 		border-radius:0;
+	}
+	#subscribe_form .custom-file-upload .btn {
+		border: none !important;
+		border-radius: 0 !important;
+		position: relative;
+		top: -10px;
 	}
 }
 /*=============================== RESPONSIVE STYLES END ================================*/

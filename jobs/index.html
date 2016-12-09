@@ -15,6 +15,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./css/font-awesome.min.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="./css/settings.css"/>
@@ -45,15 +46,23 @@
 
                     <a href="https://creanima.ru" class="logo"></a>
 
-                    <p class="slogan">
-                        Мы ищем опытного и талантливого <strong>JavaScript-разработчика</strong><br>
+                    <div class="langs">
+                        <a class="languages" title="Русский" value="rus" href="#rus"> <img alt="rus" src="images/flag/Russia.png"></a>
+                        <a class="languages" title="Հայերեն" value="arm" href="#arm"><img alt="arm" src="images/flag/Armenia.png"></a>
+                        <a class="languages" title="English" value="eng" href="#eng"> <img alt="eng" src="images/flag/England.png"></a>
+                    </div>
+
+                    <p class="slogan">Мы ищем опытного и талантливого</p>
+
+                    <p class="strong">JavaScript разработчика</p><br>
+
+                    <p class="bold"> Ждем от вас: </p>
 
 
-                        <b> Мы ждем от вас: </b><br>
                     <p class="req">
                         - Отличное знание HTML, CSS, JS<br>
-                        - Опыт работы с Angular и React будет преимуществом.<br>
-                        - Уделять внимание мелочам и делать свою работу изящно и красиво.<br>
+                        - Опыт работы с Angular и React будет преимуществом<br>
+                        - Уделять внимание мелочам, делать свою работу изящно и красиво<br>
                     </p>
 
 
@@ -64,20 +73,34 @@
                                 <div class="front">
                                     <div class="input-group">
                                         <div class="field">
-                                            <input class="form-control" type="text" name="name" id="name" required placeholder="Имя *">
+                                            <input class="form-control" type="text" name="name" id="name" data-required="true"
+                                                   placeholder="Имя *">
                                         </div>
                                         <div class="field">
-                                            <input class="form-control" type="email" name="email" id="email" required placeholder="Эл. адрес *">
+                                            <input class="form-control" type="email" name="email" id="email" data-required="true"
+                                                   placeholder="Эл. адрес *">
                                         </div>
                                         <div class="field">
-                                            <input class="form-control" type="tel" name="tel" id="phone" required placeholder="Телефон *">
+                                            <input class="form-control" type="tel" name="phone" id="phone" data-required="true"
+                                                   placeholder="Телефон *">
+                                        </div>
+                                        <div class="field custom-file-upload">
+                                            <input type="file" name="file_attach[]" class="file" id="file" data-required="true" >
+                                            <div class="input-group col-xs-12">
+                                                <input type="text" class="form-control input-lg" id="cv" placeholder="CV *" disabled data-required="true">
+                                                <span class="input-group-btn">
+                                                    <button class="browse btn btn-primary input-lg" type="button">
+                                                        <i class="glyphicon glyphicon-upload"></i>
+                                                        Загрузить
+                                                    </button>
+                                                </span>
+                                            </div>
                                         </div>
                                         <div class="field">
-                                            <input class="form-control" type="url" name="message" id="message" placeholder="Портфолио">
+                                            <input class="form-control" type="url" name="portfolio" id="message" placeholder="Портфолио URL">
                                         </div>
-
                                         <div class="field">
-                                            <button class="btn btn-default" type="submit" id="subscribe_submit">
+                                            <button class="btn btn-default" name="submit" type="submit" id="subscribe_submit">
                                                 Отправить
                                             </button>
                                         </div>
@@ -105,24 +128,16 @@
         </div>
     </section>
     <!-- INTRO SECTION END -->
-
-
-    <!-- CONTENT SECTION BEGIN -->
-    <section id="content">
-        <div class="container">
-
-        </div>
-    </section>
-    <!-- CONTENT SECTION END -->
-
 </div>
 
 <!-- JavaScript -->
+
 <script src="scripts/jquery-1.8.2.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 <script src="scripts/jquery.jCounter-0.1.4.js"></script>
 <script src="scripts/jquery.validate.min.js"></script>
 <script src="scripts/custom.js"></script>
+<script src="scripts/lang.js"></script>
 
 </body>
 </html>
