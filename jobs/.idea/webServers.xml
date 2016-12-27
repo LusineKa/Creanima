@@ -10,6 +10,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="c2c34fd2-ea83-4d55-b94c-76bfc12a7f61" name="DostSMesi" url="http://176.9.103.107">
+        <fileTransfer host="176.9.103.107" port="21" username="dostavkasmesi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
