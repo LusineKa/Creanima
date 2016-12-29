@@ -56,6 +56,10 @@
                     <span>+7 (906) 587 78 18 <br>Заказать звонок</span>
                 </div>
             </div>
+            <div class="langs">
+                <a href="#" class="languages" title="Русский"><img alt="rus" src="img/flag/Russia.png"></a>
+                <a href="arm" class="languages" title="Հայերեն"><img alt="rus" src="img/flag/Armenia.png"></a>
+            </div>
         </div>
     </div>
 </header>

@@ -5058,3 +5058,12 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     color: #4e91d6;
 }
 
+.langs {
+    position: absolute;
+    right: -80px;
+    top: 0;
+    z-index: 2000;
+}
+.langs .languages {
+    margin-right: 5px;
+}

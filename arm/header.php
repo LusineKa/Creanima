@@ -56,6 +56,10 @@
                     <span>+374 99 222 684 <br>Պատվիրել   զանգ</span>
                 </div>
             </div>
+            <div class="langs">
+                <a href="http://creanima/" class="languages" title="Русский"><img alt="rus" src="/img/flag/Russia.png"></a>
+                <a href="arm" class="languages" title="Հայերեն"><img alt="rus" src="/img/flag/Armenia.png"></a>
+            </div>
         </div>
     </div>
 </header>
