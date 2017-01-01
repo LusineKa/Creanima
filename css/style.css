@@ -3730,8 +3730,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 
     .main-banner .flexslider .slides h2 {
-        font-size: 31px;
-        line-height: 70px
+        font-size: 25px;
+        line-height: 40px
     }
 }
 
@@ -4026,6 +4026,32 @@ h1, h2, h3, h4, h5, h6, p, li, a {
         width: 33.3%;
         margin: 0 0 10px
     }
+    .main-banner .flexslider .caption .button-medium {
+        float: left;
+        height: 30px;
+        width: 125px;
+        font-size: 12px;
+        line-height: 29px;
+    }
+    .main-banner .flexslider .slides h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 784px) {
+
+    .main-banner .flexslider .caption .button-medium {
+        float: left;
+        height: 30px;
+        width: 125px;
+        font-size: 12px;
+        line-height: 29px;
+    }
+    .main-banner .flexslider .slides h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -4183,6 +4209,21 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 }
 
+@media (max-width: 684px) {
+
+    .main-banner .flexslider .caption .button-medium {
+        float: left;
+        height: 30px;
+        width: 125px;
+        font-size: 12px;
+        line-height: 29px;
+    }
+    .main-banner .flexslider .slides h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
 @media (max-width: 640px) {
 
     .inner-banner, .main-banner {
@@ -4194,7 +4235,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 
     .header-area .logo img {
-        max-width: 90%
+        max-width: 50%;
+        float: left;
     }
 
     .header-area.navbar-fixed-top .logo img {
@@ -4337,8 +4379,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     }
 
     .main-banner .flexslider .slides h2 {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 20px;
         margin: -30px 0 20px
     }
 
