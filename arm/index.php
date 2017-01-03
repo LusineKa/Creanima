@@ -210,9 +210,8 @@ H42.401L43.415,98.342z"/>
                                         <path class="deco-layer deco-layer--4" fill="#FFFFFF" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"/>
                     </svg>
-                                    <div class="pricing__price"><span class="pricing__period">от</span>990<span
-                                            class="pricing__currency"><i class="fa fa-rub"
-                                                                         aria-hidden="true"></i></span></div>
+                                    <div class="pricing__price"><span class="pricing__period">սկսած</span>990<span
+                                            class="pricing__currency">դր․</span></div>
                                     <h3 class="pricing__title">PSD–ից HTML</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
@@ -239,7 +238,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                         &nbspՏեխնիկական սպասարկում 7 օր
                                     </li>
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Մանրամասն
                                 </button>
                             </div>
@@ -259,9 +258,8 @@ H42.401L43.415,98.342z"/>
                                         <path class="deco-layer deco-layer--4" fill="#FFFFFF" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"/>
                     </svg>
-                                    <div class="pricing__price"><span class="pricing__period">от</span>4900<span
-                                            class="pricing__currency"><i class="fa fa-rub"
-                                                                         aria-hidden="true"></i></span></div>
+                                    <div class="pricing__price"><span class="pricing__period">սկսած</span>4900<span
+                                            class="pricing__currency">դր․</span></div>
                                     <h3 class="pricing__title">Պատրաստի կայք</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
@@ -290,7 +288,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
 
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Մանրամասն
                                 </button>
                             </div>
@@ -310,9 +308,8 @@ H42.401L43.415,98.342z"/>
                                         <path class="deco-layer deco-layer--4" fill="#FFFFFF" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"/>
                     </svg>
-                                    <div class="pricing__price"><span class="pricing__period">от</span>9900<span
-                                            class="pricing__currency"><i class="fa fa-rub"
-                                                                         aria-hidden="true"></i></span></div>
+                                    <div class="pricing__price"><span class="pricing__period">սկսած</span>9900<span
+                                            class="pricing__currency">դր․</i></span></div>
                                     <h3 class="pricing__title">Landing page</h3>
                                 </div>
                                 <ul class="pricing__feature-list">
@@ -334,7 +331,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     </li>
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Մանրամասն
                                 </button>
                             </div>

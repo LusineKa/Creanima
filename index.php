@@ -256,7 +256,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                         &nbspБесплатная техподдержка 7 дней
                                     </li>
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Подробнее
                                 </button>
                             </div>
@@ -307,7 +307,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
 
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Подробнее
                                 </button>
                             </div>
@@ -351,7 +351,7 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     </li>
 
                                 </ul>
-                                <button href="img/pricelist.png" data-featherlight="image" class="pricing__action">
+                                <button href="img/pricelist.png" data-order-call="" class="pricing__action">
                                     Подробнее
                                 </button>
                             </div>
