@@ -355,15 +355,14 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <div class="img-box">
                                         <div class="img-content-box">
                                             <div class="thumbnail-holder"><img src="/img/portfolio/inomma.png" alt="">
-                                                <div class="mask">
-                                                    <div class="text-content"><a data-featherlight="image"
-                                                                                 class="ovelay-icon"
-                                                                                 href="/img/portfolio/lightbox/inommatext.jpg"><i
-                                                                aria-hidden="true"
-                                                                class="fa fa-search-plus"></i></a>
-                                                        <a class="ovelay-icon" data-link="http://inomma.ru"><i
-                                                                aria-hidden="true"
-                                                                class="fa fa-link"></i></a></div>
+                                                <div data-featherlight="image" class="mask"
+                                                     href="/img/portfolio/lightbox/inommatext.jpg">
+                                                    <div class="text-content">
+                                                        <a data-featherlight="image" class="ovelay-icon"
+                                                           href="/img/portfolio/lightbox/inommatext.jpg">
+                                                            <i aria-hidden="true" class="fa fa-search-plus"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -373,15 +372,13 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <div class="img-box">
                                         <div class="img-content-box">
                                             <div class="thumbnail-holder"><img src="/img/portfolio/atb.jpg" alt="">
-                                                <div class="mask">
+                                                <div data-featherlight="image" href="/img/portfolio/lightbox/atbtext.jpg" class="mask">
                                                     <div class="text-content"><a data-featherlight="image"
                                                                                  class="ovelay-icon"
                                                                                  href="/img/portfolio/lightbox/atbtext.jpg"><i
                                                                 aria-hidden="true"
                                                                 class="fa fa-search-plus"></i></a>
-                                                        <a class="ovelay-icon" data-link="http://atb.su"><i
-                                                                aria-hidden="true"
-                                                                class="fa fa-link"></i></a></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -391,15 +388,13 @@ c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.9
                                     <div class="img-box">
                                         <div class="img-content-box">
                                             <div class="thumbnail-holder"><img src="/img/portfolio/cloud.jpg" alt="">
-                                                <div class="mask">
+                                                <div class="mask" data-featherlight="image" href="/img/portfolio/lightbox/cloudtext.jpg">
                                                     <div class="text-content"><a data-featherlight="image"
                                                                                  class="ovelay-icon"
                                                                                  href="/img/portfolio/lightbox/cloudtext.jpg"><i
                                                                 aria-hidden="true"
                                                                 class="fa fa-search-plus"></i></a>
-                                                        <a class="ovelay-icon" data-link="projects/boxcloud/index.html"><i
-                                                                aria-hidden="true"
-                                                                class="fa fa-link"></i></a></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

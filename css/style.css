@@ -2001,7 +2001,7 @@ form .button-normal {
 }
 
 .img-content-box:hover .mask {
-    background: rgba(2, 106, 212, .8);
+    background: transparent;
     cursor: pointer;
     transition: all .3s ease 0s
 }

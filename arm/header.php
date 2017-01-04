@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Creanima Ստուդիօ</title>
+    <title>Creanima - Կայքերի պատրաստում</title>
     <meta name="description" content="Creanima Студио | Создание и продвижение сайтов, +374 99 222 684">
     <meta name="keywords" content="Создание и продвижение сайтов, создание сайтов в Москве, продвижение сайтов в Москве">
     <meta property="og:type" content="website">
